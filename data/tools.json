@@ -63,6 +63,13 @@
         "pricing": "Free"
     },
     {
+        "name": "Agent QA",
+        "url": "https://github.com/vostride/agent-qa",
+        "category": "Developer Tools",
+        "purpose": "Natural-language web and mobile regression testing with execution memory, CLI and MCP tools",
+        "pricing": "Free package; configured model, browser or device costs may apply"
+    },
+    {
         "name": "Dockhand",
         "url": "https://dockhand.pro",
         "category": "DevOps",
