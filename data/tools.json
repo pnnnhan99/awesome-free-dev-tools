@@ -70,6 +70,13 @@
         "pricing": "Free package; configured model, browser or device costs may apply"
     },
     {
+        "name": "Hyperconsciousness",
+        "url": "https://github.com/louis030195/hyperconsciousness",
+        "category": "Developer Tools",
+        "purpose": "Developer-alpha encrypted, append-only knowledge store for agents, with a Rust CLI, MCP server and scoped access grants",
+        "pricing": "Free, MIT-licensed; optional hosted model or infrastructure costs may apply"
+    },
+    {
         "name": "Dockhand",
         "url": "https://dockhand.pro",
         "category": "DevOps",
