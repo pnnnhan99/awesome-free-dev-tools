@@ -341,5 +341,12 @@
         "category": "Cloud & Hosting",
         "purpose": "Publish React, Vite and static sites from GitHub or a CLI; custom domains and managed HTTPS",
         "pricing": "Free Tier: 3 projects, 20 publishes/month"
+    },
+    {
+        "name": "CodeOtter",
+        "url": "https://codeotter.io",
+        "category": "Self-hosted",
+        "purpose": "Self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea; scores PRs, enforces merge gates and posts inline fixes using local GGUF models or your own API key",
+        "pricing": "Free to self-host; optional hosted model API costs"
     }
 ]
