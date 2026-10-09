@@ -347,6 +347,6 @@
         "url": "https://codeotter.io",
         "category": "Self-hosted",
         "purpose": "Self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea; scores PRs, enforces merge gates and posts inline fixes using local GGUF models or your own API key",
-        "pricing": "Free to self-host; optional hosted model API costs"
+        "pricing": "Open Source"
     }
 ]
