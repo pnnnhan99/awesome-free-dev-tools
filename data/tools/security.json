@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Google reCAPTCHA",
+        "url": "https://www.google.com/recaptcha/about/",
+        "category": "Security",
+        "purpose": "Anti-bot protection",
+        "pricing": "Free"
+    },
+    {
+        "name": "Tailscale",
+        "url": "https://tailscale.com/",
+        "category": "Security",
+        "purpose": "Connect personal devices, development machines, and self-hosted services through a secure private network without complex VPN configuration",
+        "pricing": "Free Personal plan available; usage and user limits apply"
+    }
+]

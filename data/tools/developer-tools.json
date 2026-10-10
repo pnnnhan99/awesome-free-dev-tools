@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Webhook.site",
+        "url": "https://webhook.site",
+        "category": "Developer Tools",
+        "purpose": "Instant webhook testing and debugging",
+        "pricing": "Free"
+    },
+    {
+        "name": "Agent QA",
+        "url": "https://github.com/vostride/agent-qa",
+        "category": "Developer Tools",
+        "purpose": "Natural-language web and mobile regression testing with execution memory, CLI and MCP tools",
+        "pricing": "Free package; configured model, browser or device costs may apply"
+    },
+    {
+        "name": "Bruno",
+        "url": "https://www.usebruno.com/",
+        "category": "Developer Tools",
+        "purpose": "Open-source API client for creating, testing, and organizing API requests with collections stored directly in Git",
+        "pricing": "Free: Open Source (MIT); paid plans available for additional features"
+    },
+    {
+        "name": "Mockoon",
+        "url": "https://mockoon.com/",
+        "category": "Developer Tools",
+        "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
+        "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
+    }
+]

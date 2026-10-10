@@ -1,0 +1,9 @@
+[
+    {
+        "name": "SePay",
+        "url": "https://sepay.vn",
+        "category": "Payment",
+        "purpose": "Payment integration (VietQR & Banking)",
+        "pricing": "Free"
+    }
+]

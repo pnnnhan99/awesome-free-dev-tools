@@ -1,0 +1,51 @@
+[
+    {
+        "name": "FacebookBot",
+        "url": "https://github.com/hungtraan/FacebookBot",
+        "category": "Social & Messaging Automation",
+        "purpose": "Facebook automation bot",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "fb-messenger-bot",
+        "url": "https://github.com/hartleybrody/fb-messenger-bot",
+        "category": "Social & Messaging Automation",
+        "purpose": "Facebook Messenger bot template",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "messenger-bot",
+        "url": "https://github.com/remixz/messenger-bot",
+        "category": "Social & Messaging Automation",
+        "purpose": "Facebook Messenger bot implementation",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "MetaBot",
+        "url": "https://github.com/andriymaksymov/MetaBot",
+        "category": "Social & Messaging Automation",
+        "purpose": "Meta (Facebook) bot for automation",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "meta-ai-agent",
+        "url": "https://github.com/AmirAlsad/meta-ai-agent",
+        "category": "Social & Messaging Automation",
+        "purpose": "Meta AI agent integration",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "instagram-mcp",
+        "url": "https://github.com/setsmart-git/instagram-mcp",
+        "category": "Social & Messaging Automation",
+        "purpose": "Instagram MCP (Model Context Protocol) integration",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "messenger-platform-samples",
+        "url": "https://github.com/fbsamples/messenger-platform-samples",
+        "category": "Social & Messaging Automation",
+        "purpose": "Official Facebook Messenger platform samples",
+        "pricing": "Open Source"
+    }
+]

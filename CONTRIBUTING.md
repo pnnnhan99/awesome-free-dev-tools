@@ -21,7 +21,7 @@ Self-Promotion: If you are submitting your own tool, please declare it in the PR
 1. Check whether the tool already exists in the repository.
 2. Verify that it meets the inclusion criteria above.
 3. Fork the repository.
-4. Add the tool to `data/tools.json` following the existing format:
+4. Add the tool to the appropriate category file in `data/tools/` (e.g., `database-backend.json`, `ai-coding-ides-agents.json`, etc.) following the existing format:
 
    ```json
    {
@@ -32,6 +32,8 @@ Self-Promotion: If you are submitting your own tool, please declare it in the PR
        "pricing": "Free Tier: Describe relevant limits"
    }
    ```
+
+   If you need to create a new category, create a new JSON file in `data/tools/` with the category name (slugified, e.g., `new-category.json`) and add the tool there.
 
 5. Run the build script to update `README.md` and `docs/index.html`:
 

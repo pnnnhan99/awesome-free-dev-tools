@@ -17,16 +17,19 @@
     .stat-card .label { font-size: 0.9rem; color: #94a3b8; margin-top: 5px; }
     .stat-card.live .number { color: #22c55e; }
     .stat-card.dead .number { color: #ef4444; }
-    .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
-    .toc { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px 25px; margin: 20px 0 30px; }
-    .toc h2 { font-size: 1rem; margin-bottom: 12px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; }
-    .toc ul { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 18px; }
-    .toc a { font-size: 0.95rem; }
-    .category { margin-bottom: 35px; }
+    .main-container { display: flex; max-width: 1400px; margin: 0 auto; padding: 20px; gap: 30px; }
+    .sidebar { flex: 0 0 250px; position: sticky; top: 20px; height: fit-content; max-height: calc(100vh - 40px); overflow-y: auto; }
+    .toc { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px 25px; }
+    .toc h2 { font-size: 1rem; margin-bottom: 12px; color: #94a3b8; text-transform: uppercase; }
+    .toc ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .toc a { font-size: 0.95rem; color: #3b82f6; text-decoration: none; padding: 6px 10px; border-radius: 6px; display: block; transition: background 0.2s; }
+    .toc a:hover { background: #334155; text-decoration: none; }
+    .content { flex: 1; min-width: 0; }
+    .category { margin-bottom: 35px; scroll-margin-top: 20px; }
     .category h2 { font-size: 1.5rem; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #334155; display: flex; align-items: center; gap: 10px; }
     .category h2 .count { font-size: 0.85rem; font-weight: 600; color: #93c5fd; background: #1e3a5f; border-radius: 999px; padding: 2px 10px; }
     table { width: 100%; border-collapse: collapse; margin-bottom: 10px; table-layout: fixed; }
-    th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #1e293b; vertical-align: top; overflow-wrap: anywhere; }
+    th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #1e293b; vertical-align: middle; overflow-wrap: anywhere; line-height: 1.5; }
     th { background: #1e293b; font-weight: 600; }
     tbody tr:hover { background: #1e293b; }
     .col-logo { width: 6%; }
@@ -36,11 +39,17 @@
     .col-status { width: 15%; }
     .status { white-space: nowrap; text-align: right; }
     .logo-cell { text-align: center; vertical-align: middle; }
-    .logo { width: 24px; height: 24px; border-radius: 6px; object-fit: contain; display: block; margin: 0 auto; background: #fff; padding: 4px; box-shadow: 0 0 0 1px #334155, 0 2px 8px rgba(0,0,0,0.4); }
+    .logo { width: 24px; height: 24px; border-radius: 6px; object-fit: contain; display: inline-block; vertical-align: middle; background: #fff; padding: 4px; box-shadow: 0 0 0 1px #334155, 0 2px 8px rgba(0,0,0,0.4); }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
     a { color: #3b82f6; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .footer { text-align: center; padding: 30px; color: #64748b; border-top: 1px solid #1e293b; margin-top: 40px; }
+    @media (max-width: 1024px) {
+      .main-container { flex-direction: column; }
+      .sidebar { flex: none; position: static; max-height: none; overflow-y: visible; width: 100%; }
+      .toc ul { flex-direction: row; flex-wrap: wrap; gap: 8px 18px; }
+      .toc a { padding: 4px 8px; }
+    }
     @media (max-width: 768px) {
       .header h1 { font-size: 1.8rem; }
       table { font-size: 0.85rem; }
@@ -68,528 +77,31 @@
     <div class="stat-card live"><div class="number">55</div><div class="label">🟢 Online</div></div>
     <div class="stat-card dead"><div class="number">0</div><div class="label">🔴 Offline</div></div>
   </div>
-  <div class="container">
-    <nav class="toc">
-      <h2>📂 Table of Contents</h2>
-      <ul>
-        <li><a href="#database-backend">Database &amp; Backend</a></li>
-        <li><a href="#cloud-hosting">Cloud &amp; Hosting</a></li>
-        <li><a href="#storage-media">Storage &amp; Media</a></li>
-        <li><a href="#email-communication">Email &amp; Communication</a></li>
+  <div class="main-container">
+    <aside class="sidebar">
+      <nav class="toc">
+        <h2>📂 Table of Contents</h2>
+        <ul>
+        <li><a href="#ai-coding-ides-agents">AI Coding IDEs &amp; Agents</a></li>
         <li><a href="#ai-ml">AI &amp; ML</a></li>
-        <li><a href="#ui-design">UI &amp; Design</a></li>
+        <li><a href="#cloud-hosting">Cloud &amp; Hosting</a></li>
+        <li><a href="#database-backend">Database &amp; Backend</a></li>
         <li><a href="#developer-tools">Developer Tools</a></li>
         <li><a href="#devops">DevOps</a></li>
+        <li><a href="#email-communication">Email &amp; Communication</a></li>
+        <li><a href="#hardware-storage">Hardware &amp; Storage</a></li>
         <li><a href="#payment">Payment</a></li>
+        <li><a href="#productivity">Productivity</a></li>
         <li><a href="#profile-identity">Profile &amp; Identity</a></li>
         <li><a href="#security">Security</a></li>
-        <li><a href="#productivity">Productivity</a></li>
         <li><a href="#self-hosted">Self-hosted</a></li>
-        <li><a href="#hardware-storage">Hardware &amp; Storage</a></li>
         <li><a href="#social-messaging-automation">Social &amp; Messaging Automation</a></li>
-        <li><a href="#ai-coding-ides-agents">AI Coding IDEs &amp; Agents</a></li>
-      </ul>
-    </nav>
-      <section class="category">
-        <h2 id="database-backend">Database &amp; Backend <span class="count">7</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=supabase.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://supabase.com" target="_blank" rel="noopener noreferrer">Supabase</a></td>
-            <td>PostgreSQL and backend services (Auth, Storage, Realtime)</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=neon.tech&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://neon.tech" target="_blank" rel="noopener noreferrer">Neon</a></td>
-            <td>Serverless PostgreSQL</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=firebase.google.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://firebase.google.com" target="_blank" rel="noopener noreferrer">Firebase</a></td>
-            <td>Authentication and cloud services</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=developers.cloudflare.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://developers.cloudflare.com/d1/" target="_blank" rel="noopener noreferrer">Cloudflare D1</a></td>
-            <td>Serverless SQL database built on SQLite with global read replication and native Cloudflare Workers integration</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=turso.tech&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://turso.tech" target="_blank" rel="noopener noreferrer">Turso</a></td>
-            <td>Serverless SQLite database with edge replication</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=www.prisma.io&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://www.prisma.io" target="_blank" rel="noopener noreferrer">Prisma</a></td>
-            <td>Type-safe ORM for TypeScript and Node.js</td>
-            <td>Open Source</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=dbeaver.io&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://dbeaver.io/" target="_blank" rel="noopener noreferrer">DBeaver Community</a></td>
-            <td>Connect to and manage multiple SQL and NoSQL databases with a graphical interface, SQL editor, and data browser</td>
-            <td>Free: Open Source (Apache-2.0); commercial editions available</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="cloud-hosting">Cloud &amp; Hosting <span class="count">3</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=render.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://render.com" target="_blank" rel="noopener noreferrer">Render</a></td>
-            <td>Application hosting (Web, Worker, Cron)</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=vercel.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a></td>
-            <td>Frontend cloud platform with serverless functions</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=shipvela.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://shipvela.com/" target="_blank" rel="noopener noreferrer">Shipvela</a></td>
-            <td>Publish React, Vite and static sites from GitHub or a CLI; custom domains and managed HTTPS</td>
-            <td>Free Tier: 3 projects, 20 publishes/month</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="storage-media">Storage &amp; Media <span class="count">2</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=cloudinary.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://cloudinary.com" target="_blank" rel="noopener noreferrer">Cloudinary</a></td>
-            <td>Image/Video storage and on-the-fly optimization</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=piccollages.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://piccollages.com/compress-image" target="_blank" rel="noopener noreferrer">PicCollages</a></td>
-            <td>Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP</td>
-            <td>Free: No account required</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="email-communication">Email &amp; Communication <span class="count">1</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=resend.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://resend.com" target="_blank" rel="noopener noreferrer">Resend</a></td>
-            <td>Transactional email for developers</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="ai-ml">AI &amp; ML <span class="count">1</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Hugging Face</a></td>
-            <td>AI models, datasets, and Spaces hosting</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="ui-design">UI &amp; Design <span class="count">1</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=ui.rip&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://ui.rip" target="_blank" rel="noopener noreferrer">UI.RIP</a></td>
-            <td>Clone/recreate web UI elements</td>
-            <td>Free</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="developer-tools">Developer Tools <span class="count">4</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=webhook.site&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://webhook.site" target="_blank" rel="noopener noreferrer">Webhook.site</a></td>
-            <td>Instant webhook testing and debugging</td>
-            <td>Free</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://github.com/vostride/agent-qa" target="_blank" rel="noopener noreferrer">Agent QA</a></td>
-            <td>Natural-language web and mobile regression testing with execution memory, CLI and MCP tools</td>
-            <td>Free package; configured model, browser or device costs may apply</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=www.usebruno.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://www.usebruno.com/" target="_blank" rel="noopener noreferrer">Bruno</a></td>
-            <td>Open-source API client for creating, testing, and organizing API requests with collections stored directly in Git</td>
-            <td>Free: Open Source (MIT); paid plans available for additional features</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=mockoon.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://mockoon.com/" target="_blank" rel="noopener noreferrer">Mockoon</a></td>
-            <td>Create and run mock REST APIs locally to develop and test frontend applications without a live backend</td>
-            <td>Free: Open Source (MIT); paid plans available for team and cloud features</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="devops">DevOps <span class="count">2</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=dockhand.pro&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://dockhand.pro" target="_blank" rel="noopener noreferrer">Dockhand</a></td>
-            <td>Docker management</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=uptime.kuma.pet&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://uptime.kuma.pet/" target="_blank" rel="noopener noreferrer">Uptime Kuma</a></td>
-            <td>Self-hosted monitoring dashboard for websites, APIs, servers, and network services with notifications when services become unavailable</td>
-            <td>Free: Open Source (MIT); self-hosted</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="payment">Payment <span class="count">1</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=sepay.vn&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://sepay.vn" target="_blank" rel="noopener noreferrer">SePay</a></td>
-            <td>Payment integration (VietQR &amp; Banking)</td>
-            <td>Free</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="profile-identity">Profile &amp; Identity <span class="count">1</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=gravatar.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://gravatar.com" target="_blank" rel="noopener noreferrer">Gravatar</a></td>
-            <td>Globally Recognized User Avatars</td>
-            <td>Free</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="security">Security <span class="count">2</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=www.google.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://www.google.com/recaptcha/about/" target="_blank" rel="noopener noreferrer">Google reCAPTCHA</a></td>
-            <td>Anti-bot protection</td>
-            <td>Free</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=tailscale.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://tailscale.com/" target="_blank" rel="noopener noreferrer">Tailscale</a></td>
-            <td>Connect personal devices, development machines, and self-hosted services through a secure private network without complex VPN configuration</td>
-            <td>Free Personal plan available; usage and user limits apply</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="productivity">Productivity <span class="count">1</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=notion.so&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://notion.so" target="_blank" rel="noopener noreferrer">Notion</a></td>
-            <td>Documentation, planning and notes</td>
-            <td>Free Tier</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="self-hosted">Self-hosted <span class="count">1</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=www.home-assistant.io&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://www.home-assistant.io" target="_blank" rel="noopener noreferrer">Home Assistant</a></td>
-            <td>Smart Home automation</td>
-            <td>Open Source</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="hardware-storage">Hardware &amp; Storage <span class="count">1</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=www.synology.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://www.synology.com" target="_blank" rel="noopener noreferrer">Synology</a></td>
-            <td>NAS for file and backup storage</td>
-            <td>Paid</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
-      <section class="category">
-        <h2 id="social-messaging-automation">Social &amp; Messaging Automation <span class="count">7</span></h2>
-        <table>
-          <colgroup>
-            <col class="col-logo">
-            <col class="col-tool">
-            <col class="col-purpose">
-            <col class="col-pricing">
-            <col class="col-status">
-          </colgroup>
-          <thead>
-            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://github.com/hungtraan/FacebookBot" target="_blank" rel="noopener noreferrer">FacebookBot</a></td>
-            <td>Facebook automation bot</td>
-            <td>Open Source</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://github.com/hartleybrody/fb-messenger-bot" target="_blank" rel="noopener noreferrer">fb-messenger-bot</a></td>
-            <td>Facebook Messenger bot template</td>
-            <td>Open Source</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://github.com/remixz/messenger-bot" target="_blank" rel="noopener noreferrer">messenger-bot</a></td>
-            <td>Facebook Messenger bot implementation</td>
-            <td>Open Source</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://github.com/andriymaksymov/MetaBot" target="_blank" rel="noopener noreferrer">MetaBot</a></td>
-            <td>Meta (Facebook) bot for automation</td>
-            <td>Open Source</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://github.com/AmirAlsad/meta-ai-agent" target="_blank" rel="noopener noreferrer">meta-ai-agent</a></td>
-            <td>Meta AI agent integration</td>
-            <td>Open Source</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://github.com/setsmart-git/instagram-mcp" target="_blank" rel="noopener noreferrer">instagram-mcp</a></td>
-            <td>Instagram MCP (Model Context Protocol) integration</td>
-            <td>Open Source</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          <tr>
-            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
-            <td><a href="https://github.com/fbsamples/messenger-platform-samples" target="_blank" rel="noopener noreferrer">messenger-platform-samples</a></td>
-            <td>Official Facebook Messenger platform samples</td>
-            <td>Open Source</td>
-            <td class="status">🟢 Online</td>
-          </tr>
-          </tbody>
-        </table>
-      </section>
+        <li><a href="#storage-media">Storage &amp; Media</a></li>
+        <li><a href="#ui-design">UI &amp; Design</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="content">
       <section class="category">
         <h2 id="ai-coding-ides-agents">AI Coding IDEs &amp; Agents <span class="count">20</span></h2>
         <table>
@@ -747,10 +259,511 @@
           </tbody>
         </table>
       </section>
+      <section class="category">
+        <h2 id="ai-ml">AI &amp; ML <span class="count">1</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Hugging Face</a></td>
+            <td>AI models, datasets, and Spaces hosting</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="cloud-hosting">Cloud &amp; Hosting <span class="count">3</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=render.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://render.com" target="_blank" rel="noopener noreferrer">Render</a></td>
+            <td>Application hosting (Web, Worker, Cron)</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=vercel.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a></td>
+            <td>Frontend cloud platform with serverless functions</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=shipvela.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://shipvela.com/" target="_blank" rel="noopener noreferrer">Shipvela</a></td>
+            <td>Publish React, Vite and static sites from GitHub or a CLI; custom domains and managed HTTPS</td>
+            <td>Free Tier: 3 projects, 20 publishes/month</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="database-backend">Database &amp; Backend <span class="count">7</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=supabase.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://supabase.com" target="_blank" rel="noopener noreferrer">Supabase</a></td>
+            <td>PostgreSQL and backend services (Auth, Storage, Realtime)</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=neon.tech&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://neon.tech" target="_blank" rel="noopener noreferrer">Neon</a></td>
+            <td>Serverless PostgreSQL</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=firebase.google.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://firebase.google.com" target="_blank" rel="noopener noreferrer">Firebase</a></td>
+            <td>Authentication and cloud services</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=developers.cloudflare.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://developers.cloudflare.com/d1/" target="_blank" rel="noopener noreferrer">Cloudflare D1</a></td>
+            <td>Serverless SQL database built on SQLite with global read replication and native Cloudflare Workers integration</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=turso.tech&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://turso.tech" target="_blank" rel="noopener noreferrer">Turso</a></td>
+            <td>Serverless SQLite database with edge replication</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=www.prisma.io&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://www.prisma.io" target="_blank" rel="noopener noreferrer">Prisma</a></td>
+            <td>Type-safe ORM for TypeScript and Node.js</td>
+            <td>Open Source</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=dbeaver.io&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://dbeaver.io/" target="_blank" rel="noopener noreferrer">DBeaver Community</a></td>
+            <td>Connect to and manage multiple SQL and NoSQL databases with a graphical interface, SQL editor, and data browser</td>
+            <td>Free: Open Source (Apache-2.0); commercial editions available</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="developer-tools">Developer Tools <span class="count">4</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=webhook.site&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://webhook.site" target="_blank" rel="noopener noreferrer">Webhook.site</a></td>
+            <td>Instant webhook testing and debugging</td>
+            <td>Free</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://github.com/vostride/agent-qa" target="_blank" rel="noopener noreferrer">Agent QA</a></td>
+            <td>Natural-language web and mobile regression testing with execution memory, CLI and MCP tools</td>
+            <td>Free package; configured model, browser or device costs may apply</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=www.usebruno.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://www.usebruno.com/" target="_blank" rel="noopener noreferrer">Bruno</a></td>
+            <td>Open-source API client for creating, testing, and organizing API requests with collections stored directly in Git</td>
+            <td>Free: Open Source (MIT); paid plans available for additional features</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=mockoon.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://mockoon.com/" target="_blank" rel="noopener noreferrer">Mockoon</a></td>
+            <td>Create and run mock REST APIs locally to develop and test frontend applications without a live backend</td>
+            <td>Free: Open Source (MIT); paid plans available for team and cloud features</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="devops">DevOps <span class="count">2</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=dockhand.pro&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://dockhand.pro" target="_blank" rel="noopener noreferrer">Dockhand</a></td>
+            <td>Docker management</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=uptime.kuma.pet&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://uptime.kuma.pet/" target="_blank" rel="noopener noreferrer">Uptime Kuma</a></td>
+            <td>Self-hosted monitoring dashboard for websites, APIs, servers, and network services with notifications when services become unavailable</td>
+            <td>Free: Open Source (MIT); self-hosted</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="email-communication">Email &amp; Communication <span class="count">1</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=resend.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://resend.com" target="_blank" rel="noopener noreferrer">Resend</a></td>
+            <td>Transactional email for developers</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="hardware-storage">Hardware &amp; Storage <span class="count">1</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=www.synology.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://www.synology.com" target="_blank" rel="noopener noreferrer">Synology</a></td>
+            <td>NAS for file and backup storage</td>
+            <td>Paid</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="payment">Payment <span class="count">1</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=sepay.vn&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://sepay.vn" target="_blank" rel="noopener noreferrer">SePay</a></td>
+            <td>Payment integration (VietQR &amp; Banking)</td>
+            <td>Free</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="productivity">Productivity <span class="count">1</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=notion.so&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://notion.so" target="_blank" rel="noopener noreferrer">Notion</a></td>
+            <td>Documentation, planning and notes</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="profile-identity">Profile &amp; Identity <span class="count">1</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=gravatar.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://gravatar.com" target="_blank" rel="noopener noreferrer">Gravatar</a></td>
+            <td>Globally Recognized User Avatars</td>
+            <td>Free</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="security">Security <span class="count">2</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=www.google.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://www.google.com/recaptcha/about/" target="_blank" rel="noopener noreferrer">Google reCAPTCHA</a></td>
+            <td>Anti-bot protection</td>
+            <td>Free</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=tailscale.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://tailscale.com/" target="_blank" rel="noopener noreferrer">Tailscale</a></td>
+            <td>Connect personal devices, development machines, and self-hosted services through a secure private network without complex VPN configuration</td>
+            <td>Free Personal plan available; usage and user limits apply</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="self-hosted">Self-hosted <span class="count">1</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=www.home-assistant.io&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://www.home-assistant.io" target="_blank" rel="noopener noreferrer">Home Assistant</a></td>
+            <td>Smart Home automation</td>
+            <td>Open Source</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="social-messaging-automation">Social &amp; Messaging Automation <span class="count">7</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://github.com/hungtraan/FacebookBot" target="_blank" rel="noopener noreferrer">FacebookBot</a></td>
+            <td>Facebook automation bot</td>
+            <td>Open Source</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://github.com/hartleybrody/fb-messenger-bot" target="_blank" rel="noopener noreferrer">fb-messenger-bot</a></td>
+            <td>Facebook Messenger bot template</td>
+            <td>Open Source</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://github.com/remixz/messenger-bot" target="_blank" rel="noopener noreferrer">messenger-bot</a></td>
+            <td>Facebook Messenger bot implementation</td>
+            <td>Open Source</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://github.com/andriymaksymov/MetaBot" target="_blank" rel="noopener noreferrer">MetaBot</a></td>
+            <td>Meta (Facebook) bot for automation</td>
+            <td>Open Source</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://github.com/AmirAlsad/meta-ai-agent" target="_blank" rel="noopener noreferrer">meta-ai-agent</a></td>
+            <td>Meta AI agent integration</td>
+            <td>Open Source</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://github.com/setsmart-git/instagram-mcp" target="_blank" rel="noopener noreferrer">instagram-mcp</a></td>
+            <td>Instagram MCP (Model Context Protocol) integration</td>
+            <td>Open Source</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://github.com/fbsamples/messenger-platform-samples" target="_blank" rel="noopener noreferrer">messenger-platform-samples</a></td>
+            <td>Official Facebook Messenger platform samples</td>
+            <td>Open Source</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="storage-media">Storage &amp; Media <span class="count">2</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=cloudinary.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://cloudinary.com" target="_blank" rel="noopener noreferrer">Cloudinary</a></td>
+            <td>Image/Video storage and on-the-fly optimization</td>
+            <td>Free Tier</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=piccollages.com&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://piccollages.com/compress-image" target="_blank" rel="noopener noreferrer">PicCollages</a></td>
+            <td>Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP</td>
+            <td>Free: No account required</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="category">
+        <h2 id="ui-design">UI &amp; Design <span class="count">1</span></h2>
+        <table>
+          <colgroup>
+            <col class="col-logo">
+            <col class="col-tool">
+            <col class="col-purpose">
+            <col class="col-pricing">
+            <col class="col-status">
+          </colgroup>
+          <thead>
+            <tr><th><span class="sr-only">Logo</span></th><th>Tool &amp; Link</th><th>Purpose</th><th>Pricing</th><th class=status>Status</th></tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="logo-cell"><img class="logo" src="https://www.google.com/s2/favicons?domain=ui.rip&amp;sz=64" alt="" width="24" height="24" loading="lazy" onerror="this.style.visibility='hidden'"></td>
+            <td><a href="https://ui.rip" target="_blank" rel="noopener noreferrer">UI.RIP</a></td>
+            <td>Clone/recreate web UI elements</td>
+            <td>Free</td>
+            <td class="status">🟢 Online</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
   </div>
   <div class="footer">
     <p>Made with 💜 by the Awesome Free Dev Tools community</p>
-    <p>🕐 Last updated: 10/10/2026, 11:17:13 AM (GMT+7)</p>
+    <p>🕐 Last updated: 10/10/2026, 11:55:08 AM (GMT+7)</p>
   </div>
 </body>
 </html>
