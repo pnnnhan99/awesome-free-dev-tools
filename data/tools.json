@@ -341,5 +341,12 @@
         "category": "Cloud & Hosting",
         "purpose": "Publish React, Vite and static sites from GitHub or a CLI; custom domains and managed HTTPS",
         "pricing": "Free Tier: 3 projects, 20 publishes/month"
+    },
+    {
+        "name": "PicCollages",
+        "url": "https://piccollages.com/compress-image",
+        "category": "Storage & Media",
+        "purpose": "Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP",
+        "pricing": "Free: No account required"
     }
 ]
