@@ -1,7 +1,7 @@
 # 🛠️️ Awesome Free Dev Tools
 
-[![Total Tools](https://img.shields.io/badge/Total_Tools-49-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
-[![Online](https://img.shields.io/badge/Online-49-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Total Tools](https://img.shields.io/badge/Total_Tools-50-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Online](https://img.shields.io/badge/Online-50-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Offline](https://img.shields.io/badge/Offline-0-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Auto Update](https://img.shields.io/badge/Auto_Update-Active-purple?style=for-the-badge&logo=github-actions)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -14,10 +14,10 @@
 
 | Metric | Value |
 |---|---|
-| Total Tools | 49 |
-| 🟢 Online | 49 |
+| Total Tools | 50 |
+| 🟢 Online | 50 |
 | 🔴 Offline | 0 |
-| Last Updated | 10/9/2026, 12:10:38 PM (GMT+7) |
+| Last Updated | 10/10/2026, 9:59:04 AM (GMT+7) |
 
 ---
 
@@ -146,6 +146,12 @@
       <td style="vertical-align: middle;"><a href="https://cloudinary.com">Cloudinary</a></td>
       <td style="vertical-align: middle;">Image/Video storage and on-the-fly optimization</td>
       <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://piccollages.com/compress-image">PicCollages</a></td>
+      <td style="vertical-align: middle;">Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP</td>
+      <td style="text-align: center; vertical-align: middle;">Free: No account required</td>
       <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
     </tr>
   </tbody>
@@ -622,5 +628,5 @@
 </p>
 
 <p align="center">
-  🕐 Last updated: 10/9/2026, 12:10:38 PM
+  🕐 Last updated: 10/10/2026, 9:59:04 AM
 </p>
