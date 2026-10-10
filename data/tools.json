@@ -348,5 +348,40 @@
         "category": "Storage & Media",
         "purpose": "Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP",
         "pricing": "Free: No account required"
+    },
+    {
+        "name": "Bruno",
+        "url": "https://www.usebruno.com/",
+        "category": "Developer Tools",
+        "purpose": "Open-source API client for creating, testing, and organizing API requests with collections stored directly in Git",
+        "pricing": "Free: Open Source (MIT); paid plans available for additional features"
+    },
+    {
+        "name": "DBeaver Community",
+        "url": "https://dbeaver.io/",
+        "category": "Database & Backend",
+        "purpose": "Connect to and manage multiple SQL and NoSQL databases with a graphical interface, SQL editor, and data browser",
+        "pricing": "Free: Open Source (Apache-2.0); commercial editions available"
+    },
+    {
+        "name": "Mockoon",
+        "url": "https://mockoon.com/",
+        "category": "Developer Tools",
+        "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
+        "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
+    },
+    {
+        "name": "Tailscale",
+        "url": "https://tailscale.com/",
+        "category": "Security",
+        "purpose": "Connect personal devices, development machines, and self-hosted services through a secure private network without complex VPN configuration",
+        "pricing": "Free Personal plan available; usage and user limits apply"
+    },
+    {
+        "name": "Uptime Kuma",
+        "url": "https://uptime.kuma.pet/",
+        "category": "DevOps",
+        "purpose": "Self-hosted monitoring dashboard for websites, APIs, servers, and network services with notifications when services become unavailable",
+        "pricing": "Free: Open Source (MIT); self-hosted"
     }
 ]

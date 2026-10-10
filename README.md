@@ -1,7 +1,7 @@
 # 🛠️️ Awesome Free Dev Tools
 
-[![Total Tools](https://img.shields.io/badge/Total_Tools-50-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
-[![Online](https://img.shields.io/badge/Online-50-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Total Tools](https://img.shields.io/badge/Total_Tools-55-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Online](https://img.shields.io/badge/Online-55-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Offline](https://img.shields.io/badge/Offline-0-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Auto Update](https://img.shields.io/badge/Auto_Update-Active-purple?style=for-the-badge&logo=github-actions)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -14,10 +14,10 @@
 
 | Metric | Value |
 |---|---|
-| Total Tools | 50 |
-| 🟢 Online | 50 |
+| Total Tools | 55 |
+| 🟢 Online | 55 |
 | 🔴 Offline | 0 |
-| Last Updated | 10/10/2026, 10:50:11 AM (GMT+7) |
+| Last Updated | 10/10/2026, 11:09:03 AM (GMT+7) |
 
 ---
 
@@ -88,6 +88,12 @@
       <td style="vertical-align: middle;"><a href="https://www.prisma.io">Prisma</a></td>
       <td style="vertical-align: middle;">Type-safe ORM for TypeScript and Node.js</td>
       <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://dbeaver.io/">DBeaver Community</a></td>
+      <td style="vertical-align: middle;">Connect to and manage multiple SQL and NoSQL databases with a graphical interface, SQL editor, and data browser</td>
+      <td style="text-align: center; vertical-align: middle;">Free: Open Source (Apache-2.0); commercial editions available</td>
       <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
     </tr>
   </tbody>
@@ -252,6 +258,18 @@
       <td style="text-align: center; vertical-align: middle;">Free package; configured model, browser or device costs may apply</td>
       <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
     </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://www.usebruno.com/">Bruno</a></td>
+      <td style="vertical-align: middle;">Open-source API client for creating, testing, and organizing API requests with collections stored directly in Git</td>
+      <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); paid plans available for additional features</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://mockoon.com/">Mockoon</a></td>
+      <td style="vertical-align: middle;">Create and run mock REST APIs locally to develop and test frontend applications without a live backend</td>
+      <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); paid plans available for team and cloud features</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
   </tbody>
 </table>
 
@@ -273,6 +291,12 @@
       <td style="vertical-align: middle;"><a href="https://dockhand.pro">Dockhand</a></td>
       <td style="vertical-align: middle;">Docker management</td>
       <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://uptime.kuma.pet/">Uptime Kuma</a></td>
+      <td style="vertical-align: middle;">Self-hosted monitoring dashboard for websites, APIs, servers, and network services with notifications when services become unavailable</td>
+      <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); self-hosted</td>
       <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
     </tr>
   </tbody>
@@ -342,6 +366,12 @@
       <td style="vertical-align: middle;"><a href="https://www.google.com/recaptcha/about/">Google reCAPTCHA</a></td>
       <td style="vertical-align: middle;">Anti-bot protection</td>
       <td style="text-align: center; vertical-align: middle;">Free</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://tailscale.com/">Tailscale</a></td>
+      <td style="vertical-align: middle;">Connect personal devices, development machines, and self-hosted services through a secure private network without complex VPN configuration</td>
+      <td style="text-align: center; vertical-align: middle;">Free Personal plan available; usage and user limits apply</td>
       <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
     </tr>
   </tbody>
@@ -628,5 +658,5 @@
 </p>
 
 <p align="center">
-  🕐 Last updated: 10/10/2026, 10:50:11 AM
+  🕐 Last updated: 10/10/2026, 11:09:03 AM
 </p>
