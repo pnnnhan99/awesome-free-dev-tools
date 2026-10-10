@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Qoder",
+        "url": "https://qoder.com",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Agentic coding platform with autonomous development",
+        "pricing": "Freemium"
+    },
+    {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "AI coding agent and software development environment",
+        "pricing": "Freemium"
+    },
+    {
+        "name": "Devin (Windsurf)",
+        "url": "https://windsurf.com",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Agentic IDE with Devin cloud agent built-in",
+        "pricing": "Freemium"
+    },
+    {
+        "name": "Zed",
+        "url": "https://zed.dev",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Open-source code editor with agentic editing",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "TraeCode",
+        "url": "https://www.trae.ai/ide",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "AI coding engineer with IDE and SOLO modes",
+        "pricing": "Freemium"
+    },
+    {
+        "name": "Firebase Studio",
+        "url": "https://firebase.studio",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Agentic cloud-based development environment with Gemini",
+        "pricing": "Free Tier"
+    },
+    {
+        "name": "Google Antigravity",
+        "url": "https://antigravity.google",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Agentic development platform with local and cloud agents",
+        "pricing": "Free Tier"
+    },
+    {
+        "name": "Kilo Code",
+        "url": "https://kilo.ai/code",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Open-source AI coding agent for VS Code, JetBrains, CLI",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "Cline",
+        "url": "https://getcline.com",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Open-source coding agent in IDE and terminal",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "Continue",
+        "url": "https://docs.continue.dev",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Open-source AI code agent for VS Code and JetBrains",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "Roo Code",
+        "url": "https://roomote.dev/",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "AI-powered dev team in VS Code (archived)",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "AI pair programmer with agent mode",
+        "pricing": "Freemium"
+    },
+    {
+        "name": "Amazon Q Developer",
+        "url": "https://aws.amazon.com/q/developer",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "AWS AI coding assistant with agentic capabilities",
+        "pricing": "Free Tier"
+    },
+    {
+        "name": "Tabnine",
+        "url": "https://docs.tabnine.com/main",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Enterprise AI coding assistant (acquired by Tricentis, now AI Workspace)",
+        "pricing": "Enterprise"
+    },
+    {
+        "name": "Claude Code",
+        "url": "https://code.claude.com",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Agentic coding tool in terminal, IDE, desktop, browser",
+        "pricing": "BYOK"
+    },
+    {
+        "name": "Gemini CLI",
+        "url": "https://github.com/google-gemini/gemini-cli",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Open-source AI agent with Gemini in terminal",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "OpenAI Codex CLI",
+        "url": "https://github.com/OpenAI/codex",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Lightweight coding agent from OpenAI for terminal",
+        "pricing": "BYOK"
+    },
+    {
+        "name": "Aider",
+        "url": "https://aider.chat",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "AI pair programming in terminal with git integration",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "OpenCode",
+        "url": "https://opencode.ai",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Open-source AI coding agent for terminal, IDE, desktop",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "Goose",
+        "url": "https://goose-docs.ai",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Open-source AI agent for code, workflows, automation",
+        "pricing": "Open Source"
+    }
+]

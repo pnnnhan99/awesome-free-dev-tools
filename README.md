@@ -17,493 +17,28 @@
 | Total Tools | 55 |
 | 🟢 Online | 55 |
 | 🔴 Offline | 0 |
-| Last Updated | 10/10/2026, 11:09:03 AM (GMT+7) |
+| Last Updated | 10/10/2026, 11:55:08 AM (GMT+7) |
 
 ---
 
 ## 📂 Table of Contents
 
-- [Database & Backend](#database-backend)
-- [Cloud & Hosting](#cloud-hosting)
-- [Storage & Media](#storage-media)
-- [Email & Communication](#email-communication)
+- [AI Coding IDEs & Agents](#ai-coding-ides-agents)
 - [AI & ML](#ai-ml)
-- [UI & Design](#ui-design)
+- [Cloud & Hosting](#cloud-hosting)
+- [Database & Backend](#database-backend)
 - [Developer Tools](#developer-tools)
 - [DevOps](#devops)
+- [Email & Communication](#email-communication)
+- [Hardware & Storage](#hardware-storage)
 - [Payment](#payment)
+- [Productivity](#productivity)
 - [Profile & Identity](#profile-identity)
 - [Security](#security)
-- [Productivity](#productivity)
 - [Self-hosted](#self-hosted)
-- [Hardware & Storage](#hardware-storage)
 - [Social & Messaging Automation](#social-messaging-automation)
-- [AI Coding IDEs & Agents](#ai-coding-ides-agents)
-
----
-
-### Database & Backend
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://supabase.com">Supabase</a></td>
-      <td style="vertical-align: middle;">PostgreSQL and backend services (Auth, Storage, Realtime)</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://neon.tech">Neon</a></td>
-      <td style="vertical-align: middle;">Serverless PostgreSQL</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://firebase.google.com">Firebase</a></td>
-      <td style="vertical-align: middle;">Authentication and cloud services</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://developers.cloudflare.com/d1/">Cloudflare D1</a></td>
-      <td style="vertical-align: middle;">Serverless SQL database built on SQLite with global read replication and native Cloudflare Workers integration</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://turso.tech">Turso</a></td>
-      <td style="vertical-align: middle;">Serverless SQLite database with edge replication</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://www.prisma.io">Prisma</a></td>
-      <td style="vertical-align: middle;">Type-safe ORM for TypeScript and Node.js</td>
-      <td style="text-align: center; vertical-align: middle;">Open Source</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://dbeaver.io/">DBeaver Community</a></td>
-      <td style="vertical-align: middle;">Connect to and manage multiple SQL and NoSQL databases with a graphical interface, SQL editor, and data browser</td>
-      <td style="text-align: center; vertical-align: middle;">Free: Open Source (Apache-2.0); commercial editions available</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Cloud & Hosting
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://render.com">Render</a></td>
-      <td style="vertical-align: middle;">Application hosting (Web, Worker, Cron)</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://vercel.com">Vercel</a></td>
-      <td style="vertical-align: middle;">Frontend cloud platform with serverless functions</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://shipvela.com/">Shipvela</a></td>
-      <td style="vertical-align: middle;">Publish React, Vite and static sites from GitHub or a CLI; custom domains and managed HTTPS</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier: 3 projects, 20 publishes/month</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Storage & Media
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://cloudinary.com">Cloudinary</a></td>
-      <td style="vertical-align: middle;">Image/Video storage and on-the-fly optimization</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://piccollages.com/compress-image">PicCollages</a></td>
-      <td style="vertical-align: middle;">Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP</td>
-      <td style="text-align: center; vertical-align: middle;">Free: No account required</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Email & Communication
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://resend.com">Resend</a></td>
-      <td style="vertical-align: middle;">Transactional email for developers</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### AI & ML
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://huggingface.co">Hugging Face</a></td>
-      <td style="vertical-align: middle;">AI models, datasets, and Spaces hosting</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### UI & Design
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://ui.rip">UI.RIP</a></td>
-      <td style="vertical-align: middle;">Clone/recreate web UI elements</td>
-      <td style="text-align: center; vertical-align: middle;">Free</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Developer Tools
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://webhook.site">Webhook.site</a></td>
-      <td style="vertical-align: middle;">Instant webhook testing and debugging</td>
-      <td style="text-align: center; vertical-align: middle;">Free</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://github.com/vostride/agent-qa">Agent QA</a></td>
-      <td style="vertical-align: middle;">Natural-language web and mobile regression testing with execution memory, CLI and MCP tools</td>
-      <td style="text-align: center; vertical-align: middle;">Free package; configured model, browser or device costs may apply</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://www.usebruno.com/">Bruno</a></td>
-      <td style="vertical-align: middle;">Open-source API client for creating, testing, and organizing API requests with collections stored directly in Git</td>
-      <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); paid plans available for additional features</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://mockoon.com/">Mockoon</a></td>
-      <td style="vertical-align: middle;">Create and run mock REST APIs locally to develop and test frontend applications without a live backend</td>
-      <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); paid plans available for team and cloud features</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### DevOps
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://dockhand.pro">Dockhand</a></td>
-      <td style="vertical-align: middle;">Docker management</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://uptime.kuma.pet/">Uptime Kuma</a></td>
-      <td style="vertical-align: middle;">Self-hosted monitoring dashboard for websites, APIs, servers, and network services with notifications when services become unavailable</td>
-      <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); self-hosted</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Payment
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://sepay.vn">SePay</a></td>
-      <td style="vertical-align: middle;">Payment integration (VietQR & Banking)</td>
-      <td style="text-align: center; vertical-align: middle;">Free</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Profile & Identity
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://gravatar.com">Gravatar</a></td>
-      <td style="vertical-align: middle;">Globally Recognized User Avatars</td>
-      <td style="text-align: center; vertical-align: middle;">Free</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Security
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://www.google.com/recaptcha/about/">Google reCAPTCHA</a></td>
-      <td style="vertical-align: middle;">Anti-bot protection</td>
-      <td style="text-align: center; vertical-align: middle;">Free</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://tailscale.com/">Tailscale</a></td>
-      <td style="vertical-align: middle;">Connect personal devices, development machines, and self-hosted services through a secure private network without complex VPN configuration</td>
-      <td style="text-align: center; vertical-align: middle;">Free Personal plan available; usage and user limits apply</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Productivity
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://notion.so">Notion</a></td>
-      <td style="vertical-align: middle;">Documentation, planning and notes</td>
-      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Self-hosted
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://www.home-assistant.io">Home Assistant</a></td>
-      <td style="vertical-align: middle;">Smart Home automation</td>
-      <td style="text-align: center; vertical-align: middle;">Open Source</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Hardware & Storage
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://www.synology.com">Synology</a></td>
-      <td style="vertical-align: middle;">NAS for file and backup storage</td>
-      <td style="text-align: center; vertical-align: middle;">Paid</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Social & Messaging Automation
-
-<table>
-  <thead>
-    <tr>
-      <th>Tool & Link</th>
-      <th>Purpose</th>
-      <th>Pricing</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://github.com/hungtraan/FacebookBot">FacebookBot</a></td>
-      <td style="vertical-align: middle;">Facebook automation bot</td>
-      <td style="text-align: center; vertical-align: middle;">Open Source</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://github.com/hartleybrody/fb-messenger-bot">fb-messenger-bot</a></td>
-      <td style="vertical-align: middle;">Facebook Messenger bot template</td>
-      <td style="text-align: center; vertical-align: middle;">Open Source</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://github.com/remixz/messenger-bot">messenger-bot</a></td>
-      <td style="vertical-align: middle;">Facebook Messenger bot implementation</td>
-      <td style="text-align: center; vertical-align: middle;">Open Source</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://github.com/andriymaksymov/MetaBot">MetaBot</a></td>
-      <td style="vertical-align: middle;">Meta (Facebook) bot for automation</td>
-      <td style="text-align: center; vertical-align: middle;">Open Source</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://github.com/AmirAlsad/meta-ai-agent">meta-ai-agent</a></td>
-      <td style="vertical-align: middle;">Meta AI agent integration</td>
-      <td style="text-align: center; vertical-align: middle;">Open Source</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://github.com/setsmart-git/instagram-mcp">instagram-mcp</a></td>
-      <td style="vertical-align: middle;">Instagram MCP (Model Context Protocol) integration</td>
-      <td style="text-align: center; vertical-align: middle;">Open Source</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-    <tr>
-      <td style="vertical-align: middle;"><a href="https://github.com/fbsamples/messenger-platform-samples">messenger-platform-samples</a></td>
-      <td style="vertical-align: middle;">Official Facebook Messenger platform samples</td>
-      <td style="text-align: center; vertical-align: middle;">Open Source</td>
-      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
-    </tr>
-  </tbody>
-</table>
+- [Storage & Media](#storage-media)
+- [UI & Design](#ui-design)
 
 ---
 
@@ -644,6 +179,471 @@
 
 ---
 
+### AI & ML
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://huggingface.co">Hugging Face</a></td>
+      <td style="vertical-align: middle;">AI models, datasets, and Spaces hosting</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Cloud & Hosting
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://render.com">Render</a></td>
+      <td style="vertical-align: middle;">Application hosting (Web, Worker, Cron)</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://vercel.com">Vercel</a></td>
+      <td style="vertical-align: middle;">Frontend cloud platform with serverless functions</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://shipvela.com/">Shipvela</a></td>
+      <td style="vertical-align: middle;">Publish React, Vite and static sites from GitHub or a CLI; custom domains and managed HTTPS</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier: 3 projects, 20 publishes/month</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Database & Backend
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://supabase.com">Supabase</a></td>
+      <td style="vertical-align: middle;">PostgreSQL and backend services (Auth, Storage, Realtime)</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://neon.tech">Neon</a></td>
+      <td style="vertical-align: middle;">Serverless PostgreSQL</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://firebase.google.com">Firebase</a></td>
+      <td style="vertical-align: middle;">Authentication and cloud services</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://developers.cloudflare.com/d1/">Cloudflare D1</a></td>
+      <td style="vertical-align: middle;">Serverless SQL database built on SQLite with global read replication and native Cloudflare Workers integration</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://turso.tech">Turso</a></td>
+      <td style="vertical-align: middle;">Serverless SQLite database with edge replication</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://www.prisma.io">Prisma</a></td>
+      <td style="vertical-align: middle;">Type-safe ORM for TypeScript and Node.js</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://dbeaver.io/">DBeaver Community</a></td>
+      <td style="vertical-align: middle;">Connect to and manage multiple SQL and NoSQL databases with a graphical interface, SQL editor, and data browser</td>
+      <td style="text-align: center; vertical-align: middle;">Free: Open Source (Apache-2.0); commercial editions available</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Developer Tools
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://webhook.site">Webhook.site</a></td>
+      <td style="vertical-align: middle;">Instant webhook testing and debugging</td>
+      <td style="text-align: center; vertical-align: middle;">Free</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://github.com/vostride/agent-qa">Agent QA</a></td>
+      <td style="vertical-align: middle;">Natural-language web and mobile regression testing with execution memory, CLI and MCP tools</td>
+      <td style="text-align: center; vertical-align: middle;">Free package; configured model, browser or device costs may apply</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://www.usebruno.com/">Bruno</a></td>
+      <td style="vertical-align: middle;">Open-source API client for creating, testing, and organizing API requests with collections stored directly in Git</td>
+      <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); paid plans available for additional features</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://mockoon.com/">Mockoon</a></td>
+      <td style="vertical-align: middle;">Create and run mock REST APIs locally to develop and test frontend applications without a live backend</td>
+      <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); paid plans available for team and cloud features</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### DevOps
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://dockhand.pro">Dockhand</a></td>
+      <td style="vertical-align: middle;">Docker management</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://uptime.kuma.pet/">Uptime Kuma</a></td>
+      <td style="vertical-align: middle;">Self-hosted monitoring dashboard for websites, APIs, servers, and network services with notifications when services become unavailable</td>
+      <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); self-hosted</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Email & Communication
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://resend.com">Resend</a></td>
+      <td style="vertical-align: middle;">Transactional email for developers</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Hardware & Storage
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://www.synology.com">Synology</a></td>
+      <td style="vertical-align: middle;">NAS for file and backup storage</td>
+      <td style="text-align: center; vertical-align: middle;">Paid</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Payment
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://sepay.vn">SePay</a></td>
+      <td style="vertical-align: middle;">Payment integration (VietQR & Banking)</td>
+      <td style="text-align: center; vertical-align: middle;">Free</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Productivity
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://notion.so">Notion</a></td>
+      <td style="vertical-align: middle;">Documentation, planning and notes</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Profile & Identity
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://gravatar.com">Gravatar</a></td>
+      <td style="vertical-align: middle;">Globally Recognized User Avatars</td>
+      <td style="text-align: center; vertical-align: middle;">Free</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Security
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://www.google.com/recaptcha/about/">Google reCAPTCHA</a></td>
+      <td style="vertical-align: middle;">Anti-bot protection</td>
+      <td style="text-align: center; vertical-align: middle;">Free</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://tailscale.com/">Tailscale</a></td>
+      <td style="vertical-align: middle;">Connect personal devices, development machines, and self-hosted services through a secure private network without complex VPN configuration</td>
+      <td style="text-align: center; vertical-align: middle;">Free Personal plan available; usage and user limits apply</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Self-hosted
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://www.home-assistant.io">Home Assistant</a></td>
+      <td style="vertical-align: middle;">Smart Home automation</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Social & Messaging Automation
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://github.com/hungtraan/FacebookBot">FacebookBot</a></td>
+      <td style="vertical-align: middle;">Facebook automation bot</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://github.com/hartleybrody/fb-messenger-bot">fb-messenger-bot</a></td>
+      <td style="vertical-align: middle;">Facebook Messenger bot template</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://github.com/remixz/messenger-bot">messenger-bot</a></td>
+      <td style="vertical-align: middle;">Facebook Messenger bot implementation</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://github.com/andriymaksymov/MetaBot">MetaBot</a></td>
+      <td style="vertical-align: middle;">Meta (Facebook) bot for automation</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://github.com/AmirAlsad/meta-ai-agent">meta-ai-agent</a></td>
+      <td style="vertical-align: middle;">Meta AI agent integration</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://github.com/setsmart-git/instagram-mcp">instagram-mcp</a></td>
+      <td style="vertical-align: middle;">Instagram MCP (Model Context Protocol) integration</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://github.com/fbsamples/messenger-platform-samples">messenger-platform-samples</a></td>
+      <td style="vertical-align: middle;">Official Facebook Messenger platform samples</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Storage & Media
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://cloudinary.com">Cloudinary</a></td>
+      <td style="vertical-align: middle;">Image/Video storage and on-the-fly optimization</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://piccollages.com/compress-image">PicCollages</a></td>
+      <td style="vertical-align: middle;">Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP</td>
+      <td style="text-align: center; vertical-align: middle;">Free: No account required</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### UI & Design
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool & Link</th>
+      <th>Purpose</th>
+      <th>Pricing</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://ui.rip">UI.RIP</a></td>
+      <td style="vertical-align: middle;">Clone/recreate web UI elements</td>
+      <td style="text-align: center; vertical-align: middle;">Free</td>
+      <td style="text-align: right; vertical-align: middle;">🟢 Online</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
 ## 📝 Notes
 
 - **Status** is automatically checked every night by GitHub Actions.
@@ -658,5 +658,5 @@
 </p>
 
 <p align="center">
-  🕐 Last updated: 10/10/2026, 11:09:03 AM
+  🕐 Last updated: 10/10/2026, 11:55:08 AM
 </p>

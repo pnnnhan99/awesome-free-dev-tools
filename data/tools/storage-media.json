@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Cloudinary",
+        "url": "https://cloudinary.com",
+        "category": "Storage & Media",
+        "purpose": "Image/Video storage and on-the-fly optimization",
+        "pricing": "Free Tier"
+    },
+    {
+        "name": "PicCollages",
+        "url": "https://piccollages.com/compress-image",
+        "category": "Storage & Media",
+        "purpose": "Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP",
+        "pricing": "Free: No account required"
+    }
+]

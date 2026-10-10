@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Supabase",
+        "url": "https://supabase.com",
+        "category": "Database & Backend",
+        "purpose": "PostgreSQL and backend services (Auth, Storage, Realtime)",
+        "pricing": "Free Tier"
+    },
+    {
+        "name": "Neon",
+        "url": "https://neon.tech",
+        "category": "Database & Backend",
+        "purpose": "Serverless PostgreSQL",
+        "pricing": "Free Tier"
+    },
+    {
+        "name": "Firebase",
+        "url": "https://firebase.google.com",
+        "category": "Database & Backend",
+        "purpose": "Authentication and cloud services",
+        "pricing": "Free Tier"
+    },
+    {
+        "name": "Cloudflare D1",
+        "url": "https://developers.cloudflare.com/d1/",
+        "category": "Database & Backend",
+        "purpose": "Serverless SQL database built on SQLite with global read replication and native Cloudflare Workers integration",
+        "pricing": "Free Tier"
+    },
+    {
+        "name": "Turso",
+        "url": "https://turso.tech",
+        "category": "Database & Backend",
+        "purpose": "Serverless SQLite database with edge replication",
+        "pricing": "Free Tier"
+    },
+    {
+        "name": "Prisma",
+        "url": "https://www.prisma.io",
+        "category": "Database & Backend",
+        "purpose": "Type-safe ORM for TypeScript and Node.js",
+        "pricing": "Open Source"
+    },
+    {
+        "name": "DBeaver Community",
+        "url": "https://dbeaver.io/",
+        "category": "Database & Backend",
+        "purpose": "Connect to and manage multiple SQL and NoSQL databases with a graphical interface, SQL editor, and data browser",
+        "pricing": "Free: Open Source (Apache-2.0); commercial editions available"
+    }
+]

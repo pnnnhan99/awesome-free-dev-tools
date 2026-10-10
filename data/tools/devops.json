@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Dockhand",
+        "url": "https://dockhand.pro",
+        "category": "DevOps",
+        "purpose": "Docker management",
+        "pricing": "Free Tier"
+    },
+    {
+        "name": "Uptime Kuma",
+        "url": "https://uptime.kuma.pet/",
+        "category": "DevOps",
+        "purpose": "Self-hosted monitoring dashboard for websites, APIs, servers, and network services with notifications when services become unavailable",
+        "pricing": "Free: Open Source (MIT); self-hosted"
+    }
+]

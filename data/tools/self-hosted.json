@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Home Assistant",
+        "url": "https://www.home-assistant.io",
+        "category": "Self-hosted",
+        "purpose": "Smart Home automation",
+        "pricing": "Open Source"
+    }
+]

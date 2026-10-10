@@ -7,7 +7,7 @@ const path = require("path");
 // wrongly reported as Offline. Always run through `npm run build`, or directly:
 //   node --max-http-header-size=131072 scripts/build-readme.js
 
-const TOOLS_FILE = path.join(__dirname, "..", "data", "tools.json");
+const TOOLS_DIR = path.join(__dirname, "..", "data", "tools");
 const README_FILE = path.join(__dirname, "..", "README.md");
 const DOCS_DIR = path.join(__dirname, "..", "docs");
 const HTML_FILE = path.join(DOCS_DIR, "index.html");
@@ -237,16 +237,19 @@ ${rows}
     .stat-card .label { font-size: 0.9rem; color: #94a3b8; margin-top: 5px; }
     .stat-card.live .number { color: #22c55e; }
     .stat-card.dead .number { color: #ef4444; }
-    .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
-    .toc { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px 25px; margin: 20px 0 30px; }
-    .toc h2 { font-size: 1rem; margin-bottom: 12px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; }
-    .toc ul { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 18px; }
-    .toc a { font-size: 0.95rem; }
-    .category { margin-bottom: 35px; }
+    .main-container { display: flex; max-width: 1400px; margin: 0 auto; padding: 20px; gap: 30px; }
+    .sidebar { flex: 0 0 250px; position: sticky; top: 20px; height: fit-content; max-height: calc(100vh - 40px); overflow-y: auto; }
+    .toc { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px 25px; }
+    .toc h2 { font-size: 1rem; margin-bottom: 12px; color: #94a3b8; text-transform: uppercase; }
+    .toc ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .toc a { font-size: 0.95rem; color: #3b82f6; text-decoration: none; padding: 6px 10px; border-radius: 6px; display: block; transition: background 0.2s; }
+    .toc a:hover { background: #334155; text-decoration: none; }
+    .content { flex: 1; min-width: 0; }
+    .category { margin-bottom: 35px; scroll-margin-top: 20px; }
     .category h2 { font-size: 1.5rem; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #334155; display: flex; align-items: center; gap: 10px; }
     .category h2 .count { font-size: 0.85rem; font-weight: 600; color: #93c5fd; background: #1e3a5f; border-radius: 999px; padding: 2px 10px; }
     table { width: 100%; border-collapse: collapse; margin-bottom: 10px; table-layout: fixed; }
-    th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #1e293b; vertical-align: top; overflow-wrap: anywhere; }
+    th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #1e293b; vertical-align: middle; overflow-wrap: anywhere; line-height: 1.5; }
     th { background: #1e293b; font-weight: 600; }
     tbody tr:hover { background: #1e293b; }
     .col-logo { width: 6%; }
@@ -256,11 +259,17 @@ ${rows}
     .col-status { width: 15%; }
     .status { white-space: nowrap; text-align: right; }
     .logo-cell { text-align: center; vertical-align: middle; }
-    .logo { width: 24px; height: 24px; border-radius: 6px; object-fit: contain; display: block; margin: 0 auto; background: #fff; padding: 4px; box-shadow: 0 0 0 1px #334155, 0 2px 8px rgba(0,0,0,0.4); }
+    .logo { width: 24px; height: 24px; border-radius: 6px; object-fit: contain; display: inline-block; vertical-align: middle; background: #fff; padding: 4px; box-shadow: 0 0 0 1px #334155, 0 2px 8px rgba(0,0,0,0.4); }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
     a { color: #3b82f6; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .footer { text-align: center; padding: 30px; color: #64748b; border-top: 1px solid #1e293b; margin-top: 40px; }
+    @media (max-width: 1024px) {
+      .main-container { flex-direction: column; }
+      .sidebar { flex: none; position: static; max-height: none; overflow-y: visible; width: 100%; }
+      .toc ul { flex-direction: row; flex-wrap: wrap; gap: 8px 18px; }
+      .toc a { padding: 4px 8px; }
+    }
     @media (max-width: 768px) {
       .header h1 { font-size: 1.8rem; }
       table { font-size: 0.85rem; }
@@ -288,14 +297,18 @@ ${rows}
     <div class="stat-card live"><div class="number">${online}</div><div class="label">🟢 Online</div></div>
     <div class="stat-card dead"><div class="number">${offline}</div><div class="label">🔴 Offline</div></div>
   </div>
-  <div class="container">
-    <nav class="toc">
-      <h2>📂 Table of Contents</h2>
-      <ul>
+  <div class="main-container">
+    <aside class="sidebar">
+      <nav class="toc">
+        <h2>📂 Table of Contents</h2>
+        <ul>
 ${toc}
-      </ul>
-    </nav>
-${sections}  </div>
+        </ul>
+      </nav>
+    </aside>
+    <main class="content">
+${sections}    </main>
+  </div>
   <div class="footer">
     <p>Made with 💜 by the Awesome Free Dev Tools community</p>
     <p>🕐 Last updated: ${now} (GMT+7)</p>
@@ -307,11 +320,17 @@ ${sections}  </div>
 
 async function main() {
   console.log("🚀 Starting build-readme.js...");
-  console.log(`📂 Reading tools from: ${TOOLS_FILE}`);
+  console.log(`📂 Reading tools from: ${TOOLS_DIR}`);
 
-  const raw = fs.readFileSync(TOOLS_FILE, "utf-8");
-  const tools = JSON.parse(raw);
-  console.log(`✅ Loaded ${tools.length} tools.`);
+  const files = fs.readdirSync(TOOLS_DIR).filter(f => f.endsWith('.json'));
+  const tools = [];
+  for (const file of files) {
+    const filePath = path.join(TOOLS_DIR, file);
+    const raw = fs.readFileSync(filePath, "utf-8");
+    const categoryTools = JSON.parse(raw);
+    tools.push(...categoryTools);
+  }
+  console.log(`✅ Loaded ${tools.length} tools from ${files.length} category files.`);
 
   console.log("\n🔍 Checking tool status (timeout: 8s each)...");
   const results = [];
