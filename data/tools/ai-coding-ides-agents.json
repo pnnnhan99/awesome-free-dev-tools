@@ -138,5 +138,12 @@
         "category": "AI Coding IDEs & Agents",
         "purpose": "Open-source AI agent for code, workflows, automation",
         "pricing": "Open Source"
+    },
+    {
+        "name": "YYLO",
+        "url": "https://github.com/yylo-dev/yylo",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Command-line orchestrator for coding agents and repeatable workflows",
+        "pricing": "Open Source"
     }
 ]
