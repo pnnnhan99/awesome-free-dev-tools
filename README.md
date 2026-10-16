@@ -4,8 +4,8 @@
   <img width="300" alt="Awesome Free Dev Tools" src="awesome-free-dev-tools.png">
 </div>
 
-[![Total Tools](https://img.shields.io/badge/Total_Tools-55-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
-[![Online](https://img.shields.io/badge/Online-55-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Total Tools](https://img.shields.io/badge/Total_Tools-56-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Online](https://img.shields.io/badge/Online-56-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Offline](https://img.shields.io/badge/Offline-0-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Auto Update](https://img.shields.io/badge/Auto_Update-Active-purple?style=for-the-badge&logo=github-actions)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -18,10 +18,10 @@
 
 | Metric | Value |
 |---|---|
-| Total Tools | 55 |
-| 🟢 Online | 55 |
+| Total Tools | 56 |
+| 🟢 Online | 56 |
 | 🔴 Offline | 0 |
-| Last Updated | 10/16/2026, 9:42:03 AM (GMT+7) |
+| Last Updated | 10/16/2026, 11:35:15 AM (GMT+7) |
 
 ---
 
@@ -175,6 +175,12 @@
     <tr>
       <td style="vertical-align: middle;"><a href="https://goose-docs.ai">Goose</a></td>
       <td style="vertical-align: middle;">Open-source AI agent for code, workflows, automation</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://github.com/yylo-dev/yylo">YYLO</a></td>
+      <td style="vertical-align: middle;">Command-line orchestrator for coding agents and repeatable workflows</td>
       <td style="text-align: center; vertical-align: middle;">Open Source</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
@@ -662,5 +668,5 @@
 </p>
 
 <p align="center">
-  🕐 Last updated: 10/16/2026, 9:42:03 AM
+  🕐 Last updated: 10/16/2026, 11:35:15 AM
 </p>
