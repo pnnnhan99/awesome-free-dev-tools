@@ -26,5 +26,12 @@
         "category": "Developer Tools",
         "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
         "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
+    },
+    {
+        "name": "Glim",
+        "url": "https://github.com/NeoPanic/Glim",
+        "category": "Developer Tools",
+        "purpose": "macOS local file viewer for Markdown, source code, JSON and CSV, with read-only PDF/Office previews and basic UTF-8 editing",
+        "pricing": "Free: MIT open source; Apple Silicon and Intel downloads; DMGs are not Apple-notarized"
     }
 ]
