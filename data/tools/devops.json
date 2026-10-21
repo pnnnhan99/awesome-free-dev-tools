@@ -12,5 +12,12 @@
         "category": "DevOps",
         "purpose": "Self-hosted monitoring dashboard for websites, APIs, servers, and network services with notifications when services become unavailable",
         "pricing": "Free: Open Source (MIT); self-hosted"
+    },
+    {
+        "name": "Telemetry Tracker",
+        "url": "https://telemetry-tracker.com",
+        "category": "DevOps",
+        "purpose": "Open-source error tracker for JavaScript and TypeScript apps, with grouped errors, source maps, releases and alerts",
+        "pricing": "Free Tier: 250K ingest units/month, 14-day retention, 1 project; or self-host free (MIT)"
     }
 ]
