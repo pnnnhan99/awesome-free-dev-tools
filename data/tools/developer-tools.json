@@ -1,30 +1,79 @@
 [
-    {
-        "name": "Webhook.site",
-        "url": "https://webhook.site",
-        "category": "Developer Tools",
-        "purpose": "Instant webhook testing and debugging",
-        "pricing": "Free"
-    },
-    {
-        "name": "Agent QA",
-        "url": "https://github.com/vostride/agent-qa",
-        "category": "Developer Tools",
-        "purpose": "Natural-language web and mobile regression testing with execution memory, CLI and MCP tools",
-        "pricing": "Free package; configured model, browser or device costs may apply"
-    },
-    {
-        "name": "Bruno",
-        "url": "https://www.usebruno.com/",
-        "category": "Developer Tools",
-        "purpose": "Open-source API client for creating, testing, and organizing API requests with collections stored directly in Git",
-        "pricing": "Free: Open Source (MIT); paid plans available for additional features"
-    },
-    {
-        "name": "Mockoon",
-        "url": "https://mockoon.com/",
-        "category": "Developer Tools",
-        "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
-        "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
-    }
+  {
+    "name": "Webhook.site",
+    "url": "https://webhook.site",
+    "category": "Developer Tools",
+    "purpose": "Instant webhook testing and debugging",
+    "pricing": "Free"
+  },
+  {
+    "name": "Agent QA",
+    "url": "https://github.com/vostride/agent-qa",
+    "category": "Developer Tools",
+    "purpose": "Natural-language web and mobile regression testing with execution memory, CLI and MCP tools",
+    "pricing": "Free package; configured model, browser or device costs may apply"
+  },
+  {
+    "name": "Bruno",
+    "url": "https://www.usebruno.com/",
+    "category": "Developer Tools",
+    "purpose": "Open-source API client for creating, testing, and organizing API requests with collections stored directly in Git",
+    "pricing": "Free: Open Source (MIT); paid plans available for additional features"
+  },
+  {
+    "name": "Mockoon",
+    "url": "https://mockoon.com/",
+    "category": "Developer Tools",
+    "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
+    "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
+  },
+  {
+    "name": "Tool Pantry JSON Validator",
+    "url": "https://toolpantry.app/json-validator",
+    "category": "Developer Tools",
+    "purpose": "Validate JSON and locate syntax errors by line and column, in the browser",
+    "pricing": "Free; no signup; no usage limits"
+  },
+  {
+    "name": "Tool Pantry SQL Formatter",
+    "url": "https://toolpantry.app/sql-formatter",
+    "category": "Developer Tools",
+    "purpose": "Format and beautify SQL, with best-effort parsing of common dialects",
+    "pricing": "Free; no signup; no usage limits"
+  },
+  {
+    "name": "Tool Pantry Cron Expression Tool",
+    "url": "https://toolpantry.app/cron-expression-tool",
+    "category": "Developer Tools",
+    "purpose": "Explain a five-field cron expression in plain language and preview its next runs",
+    "pricing": "Free; no signup; no usage limits"
+  },
+  {
+    "name": "Tool Pantry Regex Tester",
+    "url": "https://toolpantry.app/regex-tester",
+    "category": "Developer Tools",
+    "purpose": "Test a regular expression against sample text and see each match",
+    "pricing": "Free; no signup; no usage limits"
+  },
+  {
+    "name": "Tool Pantry JSON Diff",
+    "url": "https://toolpantry.app/json-diff",
+    "category": "Developer Tools",
+    "purpose": "Compare two JSON documents and see exactly which keys changed",
+    "pricing": "Free; no signup; no usage limits"
+  },
+  {
+    "name": "Tool Pantry Unix Timestamp Converter",
+    "url": "https://toolpantry.app/timestamp-converter",
+    "category": "Developer Tools",
+    "purpose": "Convert between Unix timestamps and readable dates, in local time or UTC",
+    "pricing": "Free; no signup; no usage limits"
+  },
+  {
+    "name": "Tool Pantry YAML to JSON Converter",
+    "url": "https://toolpantry.app/yaml-json-converter",
+    "category": "Developer Tools",
+    "purpose": "Convert YAML to JSON and back, including both directions in one page",
+    "pricing": "Free; no signup; no usage limits"
+  }
 ]

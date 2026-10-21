@@ -4,9 +4,9 @@
   <img width="300" alt="Awesome Free Dev Tools" src="awesome-free-dev-tools.png">
 </div>
 
-[![Total Tools](https://img.shields.io/badge/Total_Tools-55-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
-[![Online](https://img.shields.io/badge/Online-55-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
-[![Offline](https://img.shields.io/badge/Offline-0-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Total Tools](https://img.shields.io/badge/Total_Tools-68-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Online](https://img.shields.io/badge/Online-57-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Offline](https://img.shields.io/badge/Offline-11-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Auto Update](https://img.shields.io/badge/Auto_Update-Active-purple?style=for-the-badge&logo=github-actions)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
@@ -18,10 +18,10 @@
 
 | Metric | Value |
 |---|---|
-| Total Tools | 55 |
-| 🟢 Online | 55 |
-| 🔴 Offline | 0 |
-| Last Updated | 10/21/2026, 9:53:47 AM (GMT+7) |
+| Total Tools | 68 |
+| 🟢 Online | 57 |
+| 🔴 Offline | 11 |
+| Last Updated | 10/21/2026, 8:00:34 PM (GMT+7) |
 
 ---
 
@@ -98,7 +98,7 @@
       <td style="vertical-align: middle;"><a href="https://antigravity.google">Google Antigravity</a></td>
       <td style="vertical-align: middle;">Agentic development platform with local and cloud agents</td>
       <td style="text-align: center; vertical-align: middle;">Free Tier</td>
-      <td style="text-align: right; vertical-align: middle;">🟢</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
     </tr>
     <tr>
       <td style="vertical-align: middle;"><a href="https://kilo.ai/code">Kilo Code</a></td>
@@ -146,7 +146,7 @@
       <td style="vertical-align: middle;"><a href="https://code.claude.com">Claude Code</a></td>
       <td style="vertical-align: middle;">Agentic coding tool in terminal, IDE, desktop, browser</td>
       <td style="text-align: center; vertical-align: middle;">BYOK</td>
-      <td style="text-align: right; vertical-align: middle;">🟢</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
     </tr>
     <tr>
       <td style="vertical-align: middle;"><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></td>
@@ -334,6 +334,48 @@
       <td style="vertical-align: middle;"><a href="https://mockoon.com/">Mockoon</a></td>
       <td style="vertical-align: middle;">Create and run mock REST APIs locally to develop and test frontend applications without a live backend</td>
       <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); paid plans available for team and cloud features</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/json-validator">Tool Pantry JSON Validator</a></td>
+      <td style="vertical-align: middle;">Validate JSON and locate syntax errors by line and column, in the browser</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/sql-formatter">Tool Pantry SQL Formatter</a></td>
+      <td style="vertical-align: middle;">Format and beautify SQL, with best-effort parsing of common dialects</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/cron-expression-tool">Tool Pantry Cron Expression Tool</a></td>
+      <td style="vertical-align: middle;">Explain a five-field cron expression in plain language and preview its next runs</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/regex-tester">Tool Pantry Regex Tester</a></td>
+      <td style="vertical-align: middle;">Test a regular expression against sample text and see each match</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/json-diff">Tool Pantry JSON Diff</a></td>
+      <td style="vertical-align: middle;">Compare two JSON documents and see exactly which keys changed</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/timestamp-converter">Tool Pantry Unix Timestamp Converter</a></td>
+      <td style="vertical-align: middle;">Convert between Unix timestamps and readable dates, in local time or UTC</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/yaml-json-converter">Tool Pantry YAML to JSON Converter</a></td>
+      <td style="vertical-align: middle;">Convert YAML to JSON and back, including both directions in one page</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
   </tbody>
@@ -409,7 +451,7 @@
       <td style="vertical-align: middle;"><a href="https://www.synology.com">Synology</a></td>
       <td style="vertical-align: middle;">NAS for file and backup storage</td>
       <td style="text-align: center; vertical-align: middle;">Paid</td>
-      <td style="text-align: right; vertical-align: middle;">🟢</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
     </tr>
   </tbody>
 </table>
@@ -455,6 +497,12 @@
       <td style="vertical-align: middle;"><a href="https://notion.so">Notion</a></td>
       <td style="vertical-align: middle;">Documentation, planning and notes</td>
       <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/text-counter">Tool Pantry Word Counter</a></td>
+      <td style="vertical-align: middle;">Count words, characters, sentences and reading time in a block of text</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
   </tbody>
@@ -507,6 +555,24 @@
       <td style="vertical-align: middle;"><a href="https://tailscale.com/">Tailscale</a></td>
       <td style="vertical-align: middle;">Connect personal devices, development machines, and self-hosted services through a secure private network without complex VPN configuration</td>
       <td style="text-align: center; vertical-align: middle;">Free Personal plan available; usage and user limits apply</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/password-generator">Tool Pantry Password Generator</a></td>
+      <td style="vertical-align: middle;">Generate random passwords from the browser crypto RNG, with a length and character-set choice</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/jwt-decoder">Tool Pantry JWT Decoder</a></td>
+      <td style="vertical-align: middle;">Decode a JWT header, payload and signature locally, without sending the token anywhere</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/hash-generator">Tool Pantry SHA Hash Generator</a></td>
+      <td style="vertical-align: middle;">Hash a string with SHA-1, SHA-256, SHA-384 or SHA-512 in the browser</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
   </tbody>
@@ -583,7 +649,7 @@
       <td style="vertical-align: middle;"><a href="https://github.com/setsmart-git/instagram-mcp">instagram-mcp</a></td>
       <td style="vertical-align: middle;">Instagram MCP (Model Context Protocol) integration</td>
       <td style="text-align: center; vertical-align: middle;">Open Source</td>
-      <td style="text-align: right; vertical-align: middle;">🟢</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
     </tr>
     <tr>
       <td style="vertical-align: middle;"><a href="https://github.com/fbsamples/messenger-platform-samples">messenger-platform-samples</a></td>
@@ -618,7 +684,7 @@
       <td style="vertical-align: middle;"><a href="https://piccollages.com/compress-image">PicCollages</a></td>
       <td style="vertical-align: middle;">Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP</td>
       <td style="text-align: center; vertical-align: middle;">Free: No account required</td>
-      <td style="text-align: right; vertical-align: middle;">🟢</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
     </tr>
   </tbody>
 </table>
@@ -643,6 +709,18 @@
       <td style="text-align: center; vertical-align: middle;">Free</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/favicon-generator">Tool Pantry Favicon Generator</a></td>
+      <td style="vertical-align: middle;">Turn one image into a complete favicon set for every size browsers ask for</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://toolpantry.app/color-converter">Tool Pantry Color Converter</a></td>
+      <td style="vertical-align: middle;">Convert HEX, RGB, HSL and CMYK with a live swatch and a contrast check</td>
+      <td style="text-align: center; vertical-align: middle;">Free; no signup; no usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
+    </tr>
   </tbody>
 </table>
 
@@ -662,5 +740,5 @@
 </p>
 
 <p align="center">
-  🕐 Last updated: 10/21/2026, 9:53:47 AM
+  🕐 Last updated: 10/21/2026, 8:00:34 PM
 </p>

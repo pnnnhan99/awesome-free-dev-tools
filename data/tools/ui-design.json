@@ -1,9 +1,23 @@
 [
-    {
-        "name": "UI.RIP",
-        "url": "https://ui.rip",
-        "category": "UI & Design",
-        "purpose": "Clone/recreate web UI elements",
-        "pricing": "Free"
-    }
+  {
+    "name": "UI.RIP",
+    "url": "https://ui.rip",
+    "category": "UI & Design",
+    "purpose": "Clone/recreate web UI elements",
+    "pricing": "Free"
+  },
+  {
+    "name": "Tool Pantry Favicon Generator",
+    "url": "https://toolpantry.app/favicon-generator",
+    "category": "UI & Design",
+    "purpose": "Turn one image into a complete favicon set for every size browsers ask for",
+    "pricing": "Free; no signup; no usage limits"
+  },
+  {
+    "name": "Tool Pantry Color Converter",
+    "url": "https://toolpantry.app/color-converter",
+    "category": "UI & Design",
+    "purpose": "Convert HEX, RGB, HSL and CMYK with a live swatch and a contrast check",
+    "pricing": "Free; no signup; no usage limits"
+  }
 ]
