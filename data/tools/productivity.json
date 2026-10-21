@@ -1,9 +1,16 @@
 [
-    {
-        "name": "Notion",
-        "url": "https://notion.so",
-        "category": "Productivity",
-        "purpose": "Documentation, planning and notes",
-        "pricing": "Free Tier"
-    }
+  {
+    "name": "Notion",
+    "url": "https://notion.so",
+    "category": "Productivity",
+    "purpose": "Documentation, planning and notes",
+    "pricing": "Free Tier"
+  },
+  {
+    "name": "Tool Pantry Word Counter",
+    "url": "https://toolpantry.app/text-counter",
+    "category": "Productivity",
+    "purpose": "Count words, characters, sentences and reading time in a block of text",
+    "pricing": "Free; no signup; no usage limits"
+  }
 ]

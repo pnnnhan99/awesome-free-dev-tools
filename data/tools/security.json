@@ -1,16 +1,37 @@
 [
-    {
-        "name": "Google reCAPTCHA",
-        "url": "https://www.google.com/recaptcha/about/",
-        "category": "Security",
-        "purpose": "Anti-bot protection",
-        "pricing": "Free"
-    },
-    {
-        "name": "Tailscale",
-        "url": "https://tailscale.com/",
-        "category": "Security",
-        "purpose": "Connect personal devices, development machines, and self-hosted services through a secure private network without complex VPN configuration",
-        "pricing": "Free Personal plan available; usage and user limits apply"
-    }
+  {
+    "name": "Google reCAPTCHA",
+    "url": "https://www.google.com/recaptcha/about/",
+    "category": "Security",
+    "purpose": "Anti-bot protection",
+    "pricing": "Free"
+  },
+  {
+    "name": "Tailscale",
+    "url": "https://tailscale.com/",
+    "category": "Security",
+    "purpose": "Connect personal devices, development machines, and self-hosted services through a secure private network without complex VPN configuration",
+    "pricing": "Free Personal plan available; usage and user limits apply"
+  },
+  {
+    "name": "Tool Pantry Password Generator",
+    "url": "https://toolpantry.app/password-generator",
+    "category": "Security",
+    "purpose": "Generate random passwords from the browser crypto RNG, with a length and character-set choice",
+    "pricing": "Free; no signup; no usage limits"
+  },
+  {
+    "name": "Tool Pantry JWT Decoder",
+    "url": "https://toolpantry.app/jwt-decoder",
+    "category": "Security",
+    "purpose": "Decode a JWT header, payload and signature locally, without sending the token anywhere",
+    "pricing": "Free; no signup; no usage limits"
+  },
+  {
+    "name": "Tool Pantry SHA Hash Generator",
+    "url": "https://toolpantry.app/hash-generator",
+    "category": "Security",
+    "purpose": "Hash a string with SHA-1, SHA-256, SHA-384 or SHA-512 in the browser",
+    "pricing": "Free; no signup; no usage limits"
+  }
 ]
