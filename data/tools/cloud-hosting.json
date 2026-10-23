@@ -19,5 +19,12 @@
         "category": "Cloud & Hosting",
         "purpose": "Publish React, Vite and static sites from GitHub or a CLI; custom domains and managed HTTPS",
         "pricing": "Free Tier: 3 projects, 20 publishes/month"
+    },
+    {
+        "name": "deed.page",
+        "url": "https://deed.page",
+        "category": "Cloud & Hosting",
+        "purpose": "Static site hosting for AI agents: one curl PUT or MCP call publishes HTML or a folder to a permanent https://{slug}.deed.page URL, no account needed",
+        "pricing": "Free Tier: 25 sites, 25 MB per site, 60 publishes/hour, 1 custom domain"
     }
 ]

@@ -4,8 +4,8 @@
   <img width="300" alt="Awesome Free Dev Tools" src="awesome-free-dev-tools.png">
 </div>
 
-[![Total Tools](https://img.shields.io/badge/Total_Tools-55-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
-[![Online](https://img.shields.io/badge/Online-55-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Total Tools](https://img.shields.io/badge/Total_Tools-56-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Online](https://img.shields.io/badge/Online-56-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Offline](https://img.shields.io/badge/Offline-0-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Auto Update](https://img.shields.io/badge/Auto_Update-Active-purple?style=for-the-badge&logo=github-actions)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -18,10 +18,10 @@
 
 | Metric | Value |
 |---|---|
-| Total Tools | 55 |
-| 🟢 Online | 55 |
+| Total Tools | 56 |
+| 🟢 Online | 56 |
 | 🔴 Offline | 0 |
-| Last Updated | 10/22/2026, 9:57:14 AM (GMT+7) |
+| Last Updated | 10/23/2026, 6:58:26 AM (GMT+7) |
 
 ---
 
@@ -234,6 +234,12 @@
       <td style="vertical-align: middle;"><a href="https://shipvela.com/">Shipvela</a></td>
       <td style="vertical-align: middle;">Publish React, Vite and static sites from GitHub or a CLI; custom domains and managed HTTPS</td>
       <td style="text-align: center; vertical-align: middle;">Free Tier: 3 projects, 20 publishes/month</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://deed.page">deed.page</a></td>
+      <td style="vertical-align: middle;">Static site hosting for AI agents: one curl PUT or MCP call publishes HTML or a folder to a permanent https://{slug}.deed.page URL, no account needed</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier: 25 sites, 25 MB per site, 60 publishes/hour, 1 custom domain</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
   </tbody>
@@ -662,5 +668,5 @@
 </p>
 
 <p align="center">
-  🕐 Last updated: 10/22/2026, 9:57:14 AM
+  🕐 Last updated: 10/23/2026, 6:58:26 AM
 </p>
