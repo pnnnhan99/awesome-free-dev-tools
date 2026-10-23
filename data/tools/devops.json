@@ -12,5 +12,12 @@
         "category": "DevOps",
         "purpose": "Self-hosted monitoring dashboard for websites, APIs, servers, and network services with notifications when services become unavailable",
         "pricing": "Free: Open Source (MIT); self-hosted"
+    },
+    {
+        "name": "vhr-bench",
+        "url": "https://github.com/vpshostreview/vhr-vps-benchmark",
+        "category": "DevOps",
+        "purpose": "Single Bash script that benchmarks a Linux server in about a minute: sysbench CPU and memory, fio 4k random read and write IOPS. Asks before installing packages and uploads nothing unless given a token",
+        "pricing": "Free: Open Source (MIT)"
     }
 ]
