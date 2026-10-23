@@ -26,5 +26,12 @@
         "category": "Developer Tools",
         "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
         "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
+    },
+    {
+        "name": "Flisk",
+        "url": "https://flisk.sh",
+        "category": "Developer Tools",
+        "purpose": "One command from an empty folder to a running full stack: autodetects the app, then generates and runs the Docker Compose, Tilt and Traefik configuration around it",
+        "pricing": "Free: Open Source (MIT); no account required"
     }
 ]
