@@ -26,5 +26,12 @@
         "category": "Developer Tools",
         "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
         "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
+    },
+    {
+        "name": "ProCraft",
+        "url": "https://procraft-9lw.pages.dev",
+        "category": "Developer Tools",
+        "purpose": "55 free web tools that run entirely in the browser: JSON, text, encoding, colors, developer tools and more, with no sign-in and no tracking",
+        "pricing": "Free"
     }
 ]

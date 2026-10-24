@@ -4,8 +4,8 @@
   <img width="300" alt="Awesome Free Dev Tools" src="awesome-free-dev-tools.png">
 </div>
 
-[![Total Tools](https://img.shields.io/badge/Total_Tools-55-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
-[![Online](https://img.shields.io/badge/Online-55-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Total Tools](https://img.shields.io/badge/Total_Tools-56-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Online](https://img.shields.io/badge/Online-56-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Offline](https://img.shields.io/badge/Offline-0-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Auto Update](https://img.shields.io/badge/Auto_Update-Active-purple?style=for-the-badge&logo=github-actions)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -18,8 +18,8 @@
 
 | Metric | Value |
 |---|---|
-| Total Tools | 55 |
-| 🟢 Online | 55 |
+| Total Tools | 56 |
+| 🟢 Online | 56 |
 | 🔴 Offline | 0 |
 | Last Updated | 10/24/2026, 9:52:26 AM (GMT+7) |
 
@@ -334,6 +334,12 @@
       <td style="vertical-align: middle;"><a href="https://mockoon.com/">Mockoon</a></td>
       <td style="vertical-align: middle;">Create and run mock REST APIs locally to develop and test frontend applications without a live backend</td>
       <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); paid plans available for team and cloud features</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://procraft-9lw.pages.dev">ProCraft</a></td>
+      <td style="vertical-align: middle;">55 free web tools that run entirely in the browser: JSON, text, encoding, colors, developer tools and more, with no sign-in and no tracking</td>
+      <td style="text-align: center; vertical-align: middle;">Free</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
   </tbody>
