@@ -5,5 +5,12 @@
         "category": "UI & Design",
         "purpose": "Clone/recreate web UI elements",
         "pricing": "Free"
+    },
+    {
+        "name": "APPLORE",
+        "url": "https://applore.app/app-icon-generator",
+        "category": "UI & Design",
+        "purpose": "Export every iOS, macOS, Android (adaptive/themed) and web/PWA icon size from one image, in the browser",
+        "pricing": "Free Tier: icon size export, PNG to SVG trace and App Store screenshot generator are free; AI tools use credits (paid plans from $9.99/mo)"
     }
 ]
