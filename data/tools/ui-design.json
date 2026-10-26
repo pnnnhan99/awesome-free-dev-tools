@@ -5,5 +5,12 @@
         "category": "UI & Design",
         "purpose": "Clone/recreate web UI elements",
         "pricing": "Free"
+    },
+    {
+        "name": "Favicon Package Builder",
+        "url": "https://radarmakers.com/tools/favicon-package-builder",
+        "category": "UI & Design",
+        "purpose": "Turn one logo into favicon.ico, PNG sizes, an Apple touch icon, a maskable icon and a web manifest, processed in the browser",
+        "pricing": "Free, no account"
     }
 ]
