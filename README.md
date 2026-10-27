@@ -620,7 +620,14 @@
       <td style="text-align: center; vertical-align: middle;">Free: No account required</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
-  </tbody>
+  
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://imgflow.taoliapp.com/en/">ImgFlow</a></td>
+      <td style="vertical-align: middle;">Compress and convert PNG/JPG/HEIC/WebP/AVIF images in the browser; core processing stays on-device</td>
+      <td style="text-align: center; vertical-align: middle;">Free: No account required</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+</tbody>
 </table>
 
 ---
