@@ -7,6 +7,13 @@
         "pricing": "Free Tier"
     },
     {
+        "name": "HelpMyIMG",
+        "url": "https://helpmyimg.com",
+        "category": "Storage & Media",
+        "purpose": "In-browser AI background remover, image compression, resize, and EXIF cleaner running 100% locally via WASM/WebGPU",
+        "pricing": "Free: No account required"
+    },
+    {
         "name": "PicCollages",
         "url": "https://piccollages.com/compress-image",
         "category": "Storage & Media",
