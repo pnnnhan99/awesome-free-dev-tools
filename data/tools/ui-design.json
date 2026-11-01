@@ -5,5 +5,12 @@
         "category": "UI & Design",
         "purpose": "Clone/recreate web UI elements",
         "pricing": "Free"
+    },
+    {
+        "name": "pic2svg",
+        "url": "https://pic2svg.com/",
+        "category": "UI & Design",
+        "purpose": "Trace PNG, JPG, WebP and GIF images (logos, icons, line art) into editable SVG made of filled vector paths; also a keyless JSON trace API and an MCP server for agents",
+        "pricing": "Free Tier: tracing, preview and SVG download with no account; trace API free within a daily allowance; PDF, EPS, AI and DXF exports need a paid plan"
     }
 ]

@@ -4,8 +4,8 @@
   <img width="300" alt="Awesome Free Dev Tools" src="awesome-free-dev-tools.png">
 </div>
 
-[![Total Tools](https://img.shields.io/badge/Total_Tools-55-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
-[![Online](https://img.shields.io/badge/Online-55-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Total Tools](https://img.shields.io/badge/Total_Tools-56-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Online](https://img.shields.io/badge/Online-56-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Offline](https://img.shields.io/badge/Offline-0-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Auto Update](https://img.shields.io/badge/Auto_Update-Active-purple?style=for-the-badge&logo=github-actions)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -18,10 +18,10 @@
 
 | Metric | Value |
 |---|---|
-| Total Tools | 55 |
-| 🟢 Online | 55 |
+| Total Tools | 56 |
+| 🟢 Online | 56 |
 | 🔴 Offline | 0 |
-| Last Updated | 10/31/2026, 10:40:55 AM (GMT+7) |
+| Last Updated | 11/1/2026, 8:05:40 AM (GMT+7) |
 
 ---
 
@@ -643,6 +643,12 @@
       <td style="text-align: center; vertical-align: middle;">Free</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://pic2svg.com/">pic2svg</a></td>
+      <td style="vertical-align: middle;">Trace PNG, JPG, WebP and GIF images (logos, icons, line art) into editable SVG made of filled vector paths; also a keyless JSON trace API and an MCP server for agents</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier: tracing, preview and SVG download with no account; trace API free within a daily allowance; PDF, EPS, AI and DXF exports need a paid plan</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
   </tbody>
 </table>
 
@@ -662,5 +668,5 @@
 </p>
 
 <p align="center">
-  🕐 Last updated: 10/31/2026, 10:40:55 AM
+  🕐 Last updated: 11/1/2026, 8:05:40 AM
 </p>
