@@ -5,5 +5,12 @@
         "category": "AI & ML",
         "purpose": "AI models, datasets, and Spaces hosting",
         "pricing": "Free Tier"
+    },
+    {
+        "name": "ArtiGram",
+        "url": "https://artigram.cafeboon.com",
+        "category": "AI & ML",
+        "purpose": "Gallery of AI-made interactive HTML artifacts with a remote MCP server for searching and posting",
+        "pricing": "Free"
     }
 ]
