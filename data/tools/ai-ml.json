@@ -5,5 +5,12 @@
         "category": "AI & ML",
         "purpose": "AI models, datasets, and Spaces hosting",
         "pricing": "Free Tier"
+    },
+    {
+        "name": "PlaceCall",
+        "url": "https://voygr.tech/placecall/",
+        "category": "AI & ML",
+        "purpose": "API and remote MCP server that let AI agents place real phone calls to US businesses and return the outcome and transcript",
+        "pricing": "Free Tier: 250 free calls with each new API key (up to 25 calls/day); then paid per successful call"
     }
 ]
