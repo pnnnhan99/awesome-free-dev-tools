@@ -1,5 +1,12 @@
 [
     {
+        "name": "Free Image Resizer",
+        "url": "https://free-image-resizer.web-free.site/en/",
+        "category": "UI & Design",
+        "purpose": "Resize, compress and convert images locally in the browser",
+        "pricing": "Free (ad-supported)"
+    },
+    {
         "name": "UI.RIP",
         "url": "https://ui.rip",
         "category": "UI & Design",
