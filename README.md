@@ -178,6 +178,12 @@
       <td style="text-align: center; vertical-align: middle;">Open Source</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://github.com/MarlBurroW/sillage">Sillage</a></td>
+      <td style="vertical-align: middle;">Self-hosted mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine</td>
+      <td style="text-align: center; vertical-align: middle;">Open Source</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
   </tbody>
 </table>
 
