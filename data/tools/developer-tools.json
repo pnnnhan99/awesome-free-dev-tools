@@ -26,5 +26,12 @@
         "category": "Developer Tools",
         "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
         "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
+    },
+    {
+        "name": "CurlShot",
+        "url": "https://curlshot.com",
+        "category": "Developer Tools",
+        "purpose": "Hosted screenshot API: one GET request renders a URL, HTML, or Markdown to PNG, JPEG, WebP, PDF, or scrolling video, with full-page and element capture, device presets, and ad/cookie-banner blocking; hosted MCP server for AI agents",
+        "pricing": "Free Tier: 100 screenshots/month, 10 requests/minute, no credit card (failed renders and cache hits not counted); paid plans from $19/month"
     }
 ]
