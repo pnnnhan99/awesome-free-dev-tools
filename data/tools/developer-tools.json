@@ -26,5 +26,12 @@
         "category": "Developer Tools",
         "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
         "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
+    },
+    {
+        "name": "HIVE.md generator (The Hive Code)",
+        "url": "https://thehivecode.ai/tools/hive-md-generator",
+        "category": "Developer Tools",
+        "purpose": "Browser tool that builds a HIVE.md file for a repo (what it is, who it's for, help wanted, how to run it) and scores it with a companion Hive-ready check",
+        "pricing": "Free: runs in the browser, nothing uploaded, no account needed"
     }
 ]
