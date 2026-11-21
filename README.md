@@ -643,6 +643,12 @@
       <td style="text-align: center; vertical-align: middle;">Free</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://easysociable.com/?utm_source=pnnnhan99-awesome-free-dev-tools&amp;utm_medium=directory&amp;utm_campaign=backlinks">EasySociable</a></td>
+      <td style="vertical-align: middle;">Agent skill that turns a prompt into a branded multi-page social carousel (TikTok, Instagram, LinkedIn) with Studio review and PNG export</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier: $0 with 3 downloads/mo (Creator $19 / Studio $49 available)</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
   </tbody>
 </table>
 
