@@ -1,5 +1,12 @@
 [
     {
+        "name": "Free Word Counter",
+        "url": "https://free-word-counter.web-free.site/",
+        "category": "Productivity",
+        "purpose": "Word and character counting with reading-time estimates in the browser",
+        "pricing": "Free (ad-supported)"
+    },
+    {
         "name": "Notion",
         "url": "https://notion.so",
         "category": "Productivity",
