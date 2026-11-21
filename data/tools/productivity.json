@@ -5,5 +5,12 @@
         "category": "Productivity",
         "purpose": "Documentation, planning and notes",
         "pricing": "Free Tier"
+    },
+    {
+        "name": "Online Lists Maker",
+        "url": "https://onlinelistsmaker.com/",
+        "category": "Productivity",
+        "purpose": "Free online list maker, create and share lists instantly with no signup",
+        "pricing": "Free"
     }
 ]
