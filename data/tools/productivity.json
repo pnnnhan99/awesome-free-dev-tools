@@ -5,5 +5,12 @@
         "category": "Productivity",
         "purpose": "Documentation, planning and notes",
         "pricing": "Free Tier"
+    },
+    {
+        "name": "LayoutKeeper",
+        "url": "https://github.com/tumingke0/LayoutKeeper",
+        "category": "Productivity",
+        "purpose": "Open-source macOS multi-monitor window layout and display manager that restores windows across Spaces, with DDC brightness sync and 4-mode anti-sleep",
+        "pricing": "Open Source"
     }
 ]
