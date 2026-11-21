@@ -138,5 +138,12 @@
         "category": "AI Coding IDEs & Agents",
         "purpose": "Open-source AI agent for code, workflows, automation",
         "pricing": "Open Source"
+    },
+    {
+        "name": "Sillage",
+        "url": "https://github.com/MarlBurroW/sillage",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "Self-hosted mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine",
+        "pricing": "Open Source"
     }
 ]
