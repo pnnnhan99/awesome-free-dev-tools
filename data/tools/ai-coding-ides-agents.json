@@ -138,5 +138,12 @@
         "category": "AI Coding IDEs & Agents",
         "purpose": "Open-source AI agent for code, workflows, automation",
         "pricing": "Open Source"
+    },
+    {
+        "name": "Massvai",
+        "url": "https://massvai.com",
+        "category": "AI Coding IDEs & Agents",
+        "purpose": "AI agent that builds full-stack Next.js apps from a prompt, with Supabase setup, GitHub sync and Vercel deploy",
+        "pricing": "Free Tier: 100 welcome credits, live preview and code export, no credit card"
     }
 ]
