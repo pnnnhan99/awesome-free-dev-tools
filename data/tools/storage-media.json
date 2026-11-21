@@ -7,6 +7,13 @@
         "pricing": "Free Tier"
     },
     {
+        "name": "Free PDF Converter",
+        "url": "https://free-pdf-converter.web-free.site/",
+        "category": "Storage & Media",
+        "purpose": "Client-side PDF merge, split, compress and convert in the browser",
+        "pricing": "Free (ad-supported)"
+    },
+    {
         "name": "PicCollages",
         "url": "https://piccollages.com/compress-image",
         "category": "Storage & Media",
