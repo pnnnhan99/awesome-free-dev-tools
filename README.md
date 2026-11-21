@@ -615,6 +615,12 @@
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
     <tr>
+      <td style="vertical-align: middle;"><a href="https://helpmyimg.com">HelpMyIMG</a></td>
+      <td style="vertical-align: middle;">In-browser AI background remover, image compression, resize, and EXIF cleaner running 100% locally via WASM/WebGPU</td>
+      <td style="text-align: center; vertical-align: middle;">Free</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
       <td style="vertical-align: middle;"><a href="https://piccollages.com/compress-image">PicCollages</a></td>
       <td style="vertical-align: middle;">Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP</td>
       <td style="text-align: center; vertical-align: middle;">Free: No account required</td>
