@@ -4,9 +4,9 @@
   <img width="300" alt="Awesome Free Dev Tools" src="awesome-free-dev-tools.png">
 </div>
 
-[![Total Tools](https://img.shields.io/badge/Total_Tools-55-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Total Tools](https://img.shields.io/badge/Total_Tools-56-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Online](https://img.shields.io/badge/Online-55-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
-[![Offline](https://img.shields.io/badge/Offline-0-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Offline](https://img.shields.io/badge/Offline-1-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Auto Update](https://img.shields.io/badge/Auto_Update-Active-purple?style=for-the-badge&logo=github-actions)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
@@ -18,10 +18,10 @@
 
 | Metric | Value |
 |---|---|
-| Total Tools | 55 |
+| Total Tools | 56 |
 | 🟢 Online | 55 |
-| 🔴 Offline | 0 |
-| Last Updated | 11/22/2026, 11:35:46 AM (GMT+7) |
+| 🔴 Offline | 1 |
+| Last Updated | 11/23/2026, 11:54:23 AM (GMT+7) |
 
 ---
 
@@ -313,15 +313,15 @@
   </thead>
   <tbody>
     <tr>
-      <td style="vertical-align: middle;"><a href="https://webhook.site">Webhook.site</a></td>
-      <td style="vertical-align: middle;">Instant webhook testing and debugging</td>
-      <td style="text-align: center; vertical-align: middle;">Free</td>
-      <td style="text-align: right; vertical-align: middle;">🟢</td>
-    </tr>
-    <tr>
       <td style="vertical-align: middle;"><a href="https://github.com/vostride/agent-qa">Agent QA</a></td>
       <td style="vertical-align: middle;">Natural-language web and mobile regression testing with execution memory, CLI and MCP tools</td>
       <td style="text-align: center; vertical-align: middle;">Free package; configured model, browser or device costs may apply</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://brand-checker.appwrite.network">BrandShield</a></td>
+      <td style="vertical-align: middle;">Check startup brand availability across 78+ TLDs via direct IANA RDAP, live USPTO trademark classes, GitHub/npm/App Store handles, and a 60-idea AI Brand Namer with zero signup</td>
+      <td style="text-align: center; vertical-align: middle;">100% Free Forever (no paywall, no account required)</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
     <tr>
@@ -334,6 +334,12 @@
       <td style="vertical-align: middle;"><a href="https://mockoon.com/">Mockoon</a></td>
       <td style="vertical-align: middle;">Create and run mock REST APIs locally to develop and test frontend applications without a live backend</td>
       <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); paid plans available for team and cloud features</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://webhook.site">Webhook.site</a></td>
+      <td style="vertical-align: middle;">Instant webhook testing and debugging</td>
+      <td style="text-align: center; vertical-align: middle;">Free</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
   </tbody>
@@ -478,7 +484,7 @@
       <td style="vertical-align: middle;"><a href="https://gravatar.com">Gravatar</a></td>
       <td style="vertical-align: middle;">Globally Recognized User Avatars</td>
       <td style="text-align: center; vertical-align: middle;">Free</td>
-      <td style="text-align: right; vertical-align: middle;">🟢</td>
+      <td style="text-align: right; vertical-align: middle;">🔴</td>
     </tr>
   </tbody>
 </table>
@@ -662,5 +668,5 @@
 </p>
 
 <p align="center">
-  🕐 Last updated: 11/22/2026, 11:35:46 AM
+  🕐 Last updated: 11/23/2026, 11:54:23 AM
 </p>
