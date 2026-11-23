@@ -1,17 +1,17 @@
 [
     {
-        "name": "Webhook.site",
-        "url": "https://webhook.site",
-        "category": "Developer Tools",
-        "purpose": "Instant webhook testing and debugging",
-        "pricing": "Free"
-    },
-    {
         "name": "Agent QA",
         "url": "https://github.com/vostride/agent-qa",
         "category": "Developer Tools",
         "purpose": "Natural-language web and mobile regression testing with execution memory, CLI and MCP tools",
         "pricing": "Free package; configured model, browser or device costs may apply"
+    },
+    {
+        "name": "BrandShield",
+        "url": "https://brand-checker.appwrite.network",
+        "category": "Developer Tools",
+        "purpose": "Check startup brand availability across 78+ TLDs via direct IANA RDAP, live USPTO trademark classes, GitHub/npm/App Store handles, and a 60-idea AI Brand Namer with zero signup",
+        "pricing": "100% Free Forever (no paywall, no account required)"
     },
     {
         "name": "Bruno",
@@ -26,5 +26,12 @@
         "category": "Developer Tools",
         "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
         "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
+    },
+    {
+        "name": "Webhook.site",
+        "url": "https://webhook.site",
+        "category": "Developer Tools",
+        "purpose": "Instant webhook testing and debugging",
+        "pricing": "Free"
     }
 ]
