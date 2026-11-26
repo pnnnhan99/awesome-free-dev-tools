@@ -7,6 +7,13 @@
         "pricing": "Free Tier"
     },
     {
+        "name": "imgmov Last Frame Extractor",
+        "url": "https://imgmov.com/extract-last-frame-from-video",
+        "category": "Storage & Media",
+        "purpose": "Export a PNG from a local video's ending for video QA, bug-report attachments and thumbnail review",
+        "pricing": "Free: No account required; MP4, WebM or MOV up to 512 MB and 2 minutes; SDR recommended"
+    },
+    {
         "name": "PicCollages",
         "url": "https://piccollages.com/compress-image",
         "category": "Storage & Media",
