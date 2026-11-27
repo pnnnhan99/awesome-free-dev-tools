@@ -12,5 +12,12 @@
         "category": "Storage & Media",
         "purpose": "Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP",
         "pricing": "Free: No account required"
+    },
+    {
+        "name": "TinyMast",
+        "url": "https://tinymast.com/image-compress/",
+        "category": "Storage & Media",
+        "purpose": "Compress up to 100 JPG, PNG, WebP or GIF images per batch to a per-file KB target, with per-file or ZIP download",
+        "pricing": "Free: No account required, no watermark"
     }
 ]
