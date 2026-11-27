@@ -19,5 +19,12 @@
         "category": "Cloud & Hosting",
         "purpose": "Publish React, Vite and static sites from GitHub or a CLI; custom domains and managed HTTPS",
         "pricing": "Free Tier: 3 projects, 20 publishes/month"
+    },
+    {
+        "name": "Sandscale",
+        "url": "https://sandscale.dev",
+        "category": "Cloud & Hosting",
+        "purpose": "Firecracker microVM sandboxes and cloud workspaces for AI coding agents, with a remote MCP server, CLI and audit log",
+        "pricing": "Free Tier: 100 awake vCPU-hours/month, 3 boxes at once, 5 GB storage, one workspace"
     }
 ]
