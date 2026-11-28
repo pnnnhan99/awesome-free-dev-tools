@@ -12,5 +12,12 @@
         "category": "Storage & Media",
         "purpose": "Compress multiple JPG, PNG and WebP images in the browser; adjust output quality and download images individually or as a ZIP",
         "pricing": "Free: No account required"
+    },
+    {
+        "name": "MyOnlineImages",
+        "url": "https://myonlineimages.top/",
+        "category": "Storage & Media",
+        "purpose": "Client-side privacy image toolkit for exact-KB compression (10KB-1MB), AVIF/WebP/HEIC/SVG conversion, EXIF removal, and local watermarking with zero server uploads",
+        "pricing": "Free: 100% free, browser-native, no account required"
     }
 ]
