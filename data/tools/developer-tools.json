@@ -26,5 +26,12 @@
         "category": "Developer Tools",
         "purpose": "Create and run mock REST APIs locally to develop and test frontend applications without a live backend",
         "pricing": "Free: Open Source (MIT); paid plans available for team and cloud features"
+    },
+    {
+        "name": "MyOnlineTools",
+        "url": "https://myonlinetools.top/",
+        "category": "Developer Tools",
+        "purpose": "80+ client-side browser utilities including Linux chmod calculator, IPv4 CIDR subnet calculator, HTTP status reference, JWT decoder, and cron generator",
+        "pricing": "Free: 100% free, no account or usage limits"
     }
 ]
