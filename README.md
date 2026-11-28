@@ -201,7 +201,13 @@
       <td style="text-align: center; vertical-align: middle;">Free Tier</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
-  </tbody>
+      <tr>
+      <td style="vertical-align: middle;"><a href="https://meetnewai.com">MeetNewAI</a></td>
+      <td style="vertical-align: middle;">Free bilingual directory of AI tools, AI games, and MCP servers by job</td>
+      <td style="text-align: center; vertical-align: middle;">Free</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+</tbody>
 </table>
 
 ---
