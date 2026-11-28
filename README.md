@@ -4,8 +4,8 @@
   <img width="300" alt="Awesome Free Dev Tools" src="awesome-free-dev-tools.png">
 </div>
 
-[![Total Tools](https://img.shields.io/badge/Total_Tools-55-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
-[![Online](https://img.shields.io/badge/Online-55-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Total Tools](https://img.shields.io/badge/Total_Tools-57-blue?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
+[![Online](https://img.shields.io/badge/Online-57-brightgreen?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Offline](https://img.shields.io/badge/Offline-0-red?style=for-the-badge)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![Auto Update](https://img.shields.io/badge/Auto_Update-Active-purple?style=for-the-badge&logo=github-actions)](https://github.com/pnnnhan99/awesome-free-dev-tools)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -18,10 +18,10 @@
 
 | Metric | Value |
 |---|---|
-| Total Tools | 55 |
-| 🟢 Online | 55 |
+| Total Tools | 57 |
+| 🟢 Online | 57 |
 | 🔴 Offline | 0 |
-| Last Updated | 11/28/2026, 12:52:12 PM (GMT+7) |
+| Last Updated | 11/28/2026, 4:06:49 PM (GMT+7) |
 
 ---
 
@@ -336,6 +336,12 @@
       <td style="text-align: center; vertical-align: middle;">Free: Open Source (MIT); paid plans available for team and cloud features</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://myonlinetools.top/">MyOnlineTools</a></td>
+      <td style="vertical-align: middle;">80+ client-side browser utilities including Linux chmod calculator, IPv4 CIDR subnet calculator, HTTP status reference, JWT decoder, and cron generator</td>
+      <td style="text-align: center; vertical-align: middle;">Free: 100% free, no account or usage limits</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
   </tbody>
 </table>
 
@@ -620,6 +626,12 @@
       <td style="text-align: center; vertical-align: middle;">Free: No account required</td>
       <td style="text-align: right; vertical-align: middle;">🟢</td>
     </tr>
+    <tr>
+      <td style="vertical-align: middle;"><a href="https://myonlineimages.top/">MyOnlineImages</a></td>
+      <td style="vertical-align: middle;">Client-side privacy image toolkit for exact-KB compression (10KB-1MB), AVIF/WebP/HEIC/SVG conversion, EXIF removal, and local watermarking with zero server uploads</td>
+      <td style="text-align: center; vertical-align: middle;">Free: 100% free, browser-native, no account required</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
   </tbody>
 </table>
 
@@ -662,5 +674,5 @@
 </p>
 
 <p align="center">
-  🕐 Last updated: 11/28/2026, 12:52:12 PM
+  🕐 Last updated: 11/28/2026, 4:06:49 PM
 </p>
