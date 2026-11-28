@@ -451,7 +451,13 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
+        <tr>
+      <td style="vertical-align: middle;"><a href="https://earlylore.com">EarlyLore</a></td>
+      <td style="vertical-align: middle;">SaaS product research for founders — competitors, revenue signals</td>
+      <td style="text-align: center; vertical-align: middle;">Free Tier</td>
+      <td style="text-align: right; vertical-align: middle;">🟢</td>
+    </tr>
+<tr>
       <td style="vertical-align: middle;"><a href="https://notion.so">Notion</a></td>
       <td style="vertical-align: middle;">Documentation, planning and notes</td>
       <td style="text-align: center; vertical-align: middle;">Free Tier</td>
